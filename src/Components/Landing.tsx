@@ -2,11 +2,7 @@ import { ImagesSlider } from "./ui/ImagesSlider";
 import { motion } from "framer-motion";
 
 const Landing = () => {
-  const images = [
-    "../../public/brooke.jpg",
-    "../../public/lous.jpg",
-    "../../public/vitaly.jpg",
-  ];
+  const images = ["/brooke.jpg", "/lous.jpg", "/vitaly.jpg"];
   return (
     <ImagesSlider className="h-[700px]" images={images} autoplay={true}>
       <motion.div
