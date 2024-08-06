@@ -75,28 +75,6 @@ export const ImagesSlider = ({
     };
   }, []);
 
-  const slideVariants = {
-    initial: {
-      opacity: 0,
-      x: 50,
-    },
-    visible: {
-      opacity: 1,
-      x: 0,
-      transition: {
-        duration: 0.5,
-        ease: [0.645, 0.045, 0.355, 1.0],
-      },
-    },
-    leftExit: {
-      opacity: 0,
-      x: "-150%",
-      transition: {
-        duration: 1,
-      },
-    },
-  };
-
   const areImagesLoaded = loadedImages.length > 0;
 
   return (
