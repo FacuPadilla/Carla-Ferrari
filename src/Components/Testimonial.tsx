@@ -1,13 +1,15 @@
 import { TestiCard } from "./TestiCard";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const Testimonial = () => {
+  const [t] = useTranslation("global");
   return (
     <motion.div
-      className="px-10 my-10"
+      className="px-10 my-10 mt-32"
       id="testimonials"
-      initial={{ opacity: 0, scale: 0.5 }} // Empieza oculto y con escala reducida
-      whileInView={{ opacity: 1, scale: 1 }} // Aparece y escala a su tamaño original
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
     >
       {/* <h1 className="text-center text-5xl font-bold  py-10">Testimonios</h1>
@@ -120,31 +122,39 @@ const Testimonial = () => {
           </figcaption>
         </figure>
       </div> */}
-      <h1 className="text-center text-5xl font-bold  py-10">Testimonios</h1>
-      <div className="flex flex-wrap gap-5 items-center justify-center">
+      <div className="my-20">
+        <h1 className="text-center md:text-7xl text-5xl font-bold">
+          {t("testimonials.title")}
+        </h1>
+        <h2 className="text-center md:text-3xl text-2xl  py-5">
+          {t("testimonials.subtitle")}
+        </h2>
+      </div>
+
+      <div className="flex flex-wrap gap-y-10 gap-x-28 items-center justify-center">
         <TestiCard
-          title="Ana, 32"
+          title={t("testimonials.testimonial1.name")}
           img="/testimonio1.jpg"
-          subtitle="Gerenta de Marketing | WeWork"
-          text="Fue un placer trabajar con Carli. Además de una gran persona, es una gran profesional. Llevó adelante cada desafío con dedicación y responsabilidad, siempre atenta al más mínimo detalle. Destaco su creatividad y energía positiva para trabajar. Sus aportes eran siempre acertados y fueron claves para el éxito de muchas campañas publicitarias."
+          subtitle={t("testimonials.testimonial1.position")}
+          text={t("testimonials.testimonial1.content")}
         />
         <TestiCard
-          title="Lucia, 31"
+          title={t("testimonials.testimonial2.name")}
           img="/testimonio2.jpg"
-          subtitle="Supervisora de cuentas | The community"
-          text="Trabajar con Carli es un gusto enorme. Es una persona sumamente creativa y encara los proyectos con la mejor predisposición, entendiendo y resolviendo los pedidos y necesidades del cliente. A nivel personal siempre está dispuesta a ayudar y trasmite la mejor energía."
+          subtitle={t("testimonials.testimonial2.position")}
+          text={t("testimonials.testimonial2.content")}
         />
         <TestiCard
-          title="Facundo, 33"
+          title={t("testimonials.testimonial3.name")}
           img="/testimonio3.jpg"
-          subtitle="Desarrollador web | Montagne"
-          text="Trabajar con Carla es hacerlo con una persona que ama lo que hace. Siempre dispuesta a trabajar en equipo, aportando creatividad, organización y compromiso, con una energía que se contagia. Espero podamos volver a trabajar juntos pronto!"
+          subtitle={t("testimonials.testimonial3.position")}
+          text={t("testimonials.testimonial3.content")}
         />
         <TestiCard
-          title="Brenda, 26"
+          title={t("testimonials.testimonial4.name")}
           img="/testimonio4.jpg"
-          subtitle="Diseñadora gráfica | Alma Buenos Aires"
-          text="Trabajamos juntas y puedo asegurar que es una gran profesional. Responsable, buena compañera, resolutiva y sobretodo apasionada por lo que hace. Todo eso hace que sea un gusto trabajar con ella."
+          subtitle={t("testimonials.testimonial4.position")}
+          text={t("testimonials.testimonial4.content")}
         />
       </div>
     </motion.div>

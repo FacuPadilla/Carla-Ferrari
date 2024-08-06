@@ -5,11 +5,12 @@ export default {
     extend: {
       colors: {
         secondary: "#E5E2C8",
-        primary: "#f5f5dc",
+        primary: "#ebeadf",
       },
       fontFamily: {
         Questrial: ["Questrial"],
         amsterdam: ["Amsterdam Two", "sans-serif"],
+
         opensans: ["Open Sans"],
       },
     },

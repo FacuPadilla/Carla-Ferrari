@@ -1,0 +1,128 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "book": "Book",
+    "contact": "Contact"
+  },
+  "carousel": {
+    "slide1": {
+      "title": "Powerful ideas can change the world.",
+      "title1": "Powerful ideas",
+      "title2": "can change the world.",
+      "subtitle": "Take your business to the next level.",
+      "button": "schedule a meeting"
+    },
+    "slide2": {
+      "title": "Powerful ideas can change the world.",
+      "subtitle": "Take your business to the next level."
+    },
+    "slide3": {
+      "title": "Powerful ideas can change the world.",
+      "subtitle": "Take your business to the next level."
+    }
+  },
+  "about": {
+    "title1": "Trust on quality",
+    "title2": "and experience,",
+    "title3": "makes the difference",
+    "title4": " Trust on quality and experience,",
+    "title5": "Trust on quality",
+    "content": "With more than 10 years of experience in the industry, I have worked in advertising agencies and companies for various brands and sectors in Argentina, Spain and Ireland. From low-budget business to companies positioned in the market, I made it grow each business efficiently, positioning the brand and building consumer loyalty. I’m a passionate professional who added value to each project. Let’s start!",
+    "button": "More about me"
+  },
+  "services": {
+    "intro": "Do you want to launch your brand, position yourself in the market or increase your sales?",
+    "description": "Learn about all the tools and consult the one suitable for your business.",
+    "list": {
+      "copywriting": "Copywriting",
+      "project_management": "Project Management",
+      "communication_strategy": "Communication Strategy",
+      "brand_identity": "Brand Identity",
+      "script_writing": "Script Writing",
+      "social_media_content": "Social Media Content Creation",
+      "seo_sem_writing": "SEO/SEM Writing"
+    },
+    "serviceDescription1": "Writings not for everyone, simplify your concepts and communicate them in a simple and concise way.",
+    "serviceDescription2": "May your projects arrive on time and with the right team and the result you are looking for.",
+    "serviceDescription3": "It's time to set objectives, times and costs. What is not communicated is not sold!",
+    "serviceDescription4": "Let's start from the beginning! Who we are, what we look like, who our audience is and how we are going to talk to them.",
+    "serviceDescription5": "If a commercial or audiovisual project needs a structure, let's get to work.",
+    "serviceDescription6": "Why would you follow a brand? That is the first question to stand out from the average. ",
+    "serviceDescription7": "To position, you have to write! Technical texts on websites are key to positioning yourself on Google."
+  },
+  "portfolio": {
+    "title": "Give your brand",
+    "title2": "the push it needs.",
+    "subtitle": "Get inspired by our success stories.",
+    "project1": {
+      "title": "Project 1",
+      "description": "Social media strategy"
+    },
+    "project2": {
+      "title": "Project 2",
+      "description": "A baby changes everything | Advertising campaing"
+    },
+    "project3": {
+      "title": "Project 3",
+      "description": "Descripción: Go for it | Advertising campaing"
+    },
+    "project4": {
+      "title": "Project 4",
+      "description": "Social media strategy"
+    },
+    "project5": {
+      "title": "Project 5",
+      "description": "66 fires | Advertising campaign"
+    },
+    "project6": {
+      "title": "Project 6",
+      "description": "Feeling like a 10, feel Coolsculpting | Ad campaign"
+    }
+  },
+  "testimonials": {
+    "title": "Growing business, happy customers",
+    "subtitle": "Meet some of our partners.",
+    "testimonial1": {
+      "name": "Ana",
+      "position": "Marketing Manager | WeWork",
+      "content": "It was a pleasure working with Carli. Besides being a great person, she is a great professional. She carried out each challenge with dedication and responsibility, always attentive to the smallest detail. I highlight her creativity and positive energy for work. Her contributions were always accurate and were key to the success of many advertising campaigns."
+    },
+    "testimonial2": {
+      "name": "Lucía",
+      "position": "Account Supervisor | The community",
+      "content": "Working with Carli is a great pleasure. She is a highly creative person who approaches projects with the best attitude, understanding and resolving the client's requests and needs. On a personal level, she is always willing to help and brings the best energy."
+    },
+    "testimonial3": {
+      "name": "Facundo",
+      "position": "Web Developer | Montagne",
+      "content": "Working with Carla means working with someone who loves what she does. Always willing to work as a team, contributing creativity, organization, and commitment, with energy that is contagious. I hope we can work together again soon!"
+    },
+    "testimonial4": {
+      "name": "Brenda",
+      "position": "Graphic Designer | Alma Buenos Aires",
+      "content": "We worked together and I can assure you that she is a great professional. Responsible, a good teammate, problem solver, and above all, passionate about what she does. All this makes it a pleasure to work with her."
+    }
+  },
+  "book": {
+    "title": "Writing is my passion, in all its formats.",
+    "content": "My next book will be released very soon. Ready?"
+  },
+  "contact": {
+    "boton": "Contact me",
+    "title": "Contact",
+    "intro": "A well-communicated product is a new sale.",
+    "call_to_action": "Contact me today and let's schedule a meeting.",
+    "email": "carferrari94@gmail.com",
+    "phone": "0400738349",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
+    "behance": "Behance"
+  },
+  "footer": {
+    "copyright": "© 2024 Carla Ferrari. All rights reserved."
+  }
+}

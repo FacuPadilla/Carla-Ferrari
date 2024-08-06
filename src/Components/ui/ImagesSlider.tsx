@@ -1,7 +1,7 @@
-"use client";
 import { cn } from "../../lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useEffect, useState } from "react";
+import Navbar from "../NavBar";
 
 export const ImagesSlider = ({
   images,
@@ -10,7 +10,6 @@ export const ImagesSlider = ({
   overlayClassName,
   className,
   autoplay = true,
-  direction = "up",
 }: {
   images: string[];
   children: React.ReactNode;
@@ -18,7 +17,6 @@ export const ImagesSlider = ({
   overlayClassName?: string;
   className?: string;
   autoplay?: boolean;
-  direction?: "up" | "down";
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(false);
@@ -27,12 +25,6 @@ export const ImagesSlider = ({
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex + 1 === images.length ? 0 : prevIndex + 1
-    );
-  };
-
-  const handlePrevious = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex - 1 < 0 ? images.length - 1 : prevIndex - 1
     );
   };
 
@@ -46,7 +38,6 @@ export const ImagesSlider = ({
       return new Promise((resolve, reject) => {
         const img = new Image();
         img.src = image;
-        console.log(loading);
         img.onload = () => resolve(image);
         img.onerror = reject;
       });
@@ -59,13 +50,13 @@ export const ImagesSlider = ({
       })
       .catch((error) => console.error("Failed to load images", error));
   };
+
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "ArrowRight") {
         handleNext();
-      } else if (event.key === "ArrowLeft") {
-        handlePrevious();
       }
+      console.log(loading);
     };
 
     window.addEventListener("keydown", handleKeyDown);
@@ -86,29 +77,20 @@ export const ImagesSlider = ({
 
   const slideVariants = {
     initial: {
-      scale: 0,
       opacity: 0,
-      rotateX: 45,
+      x: 50,
     },
     visible: {
-      scale: 1,
-      rotateX: 0,
       opacity: 1,
+      x: 0,
       transition: {
         duration: 0.5,
         ease: [0.645, 0.045, 0.355, 1.0],
       },
     },
-    upExit: {
-      opacity: 1,
-      y: "-150%",
-      transition: {
-        duration: 1,
-      },
-    },
-    downExit: {
-      opacity: 1,
-      y: "150%",
+    leftExit: {
+      opacity: 0,
+      x: "-150%",
       transition: {
         duration: 1,
       },
@@ -127,10 +109,14 @@ export const ImagesSlider = ({
         perspective: "1000px",
       }}
     >
+      <div className="absolute top-0 left-0 w-full flex items-center justify-between p-4 z-50">
+        <Navbar />
+      </div>
+
       {areImagesLoaded && children}
       {areImagesLoaded && overlay && (
         <div
-          className={cn("absolute inset-0 bg-black/40 z-40", overlayClassName)}
+          className={cn("absolute inset-0 bg-black/15 z-40", overlayClassName)}
         />
       )}
 
@@ -139,10 +125,7 @@ export const ImagesSlider = ({
           <motion.img
             key={currentIndex}
             src={loadedImages[currentIndex]}
-            initial="initial"
-            animate="visible"
-            exit={direction === "up" ? "upExit" : "downExit"}
-            variants={slideVariants}
+            exit="leftExit"
             className="image h-full w-full absolute inset-0 object-cover object-center"
           />
         </AnimatePresence>

@@ -11,7 +11,7 @@ const Footer = () => {
     <div>
       <footer className=" rounded-lg shadow bg-primary mt-5 ">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-          <div className="sm:flex sm:items-center sm:justify-between">
+          <div className="flex items-center justify-between">
             <a
               href=""
               className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
@@ -57,7 +57,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="">
+                <a href="https://wa.me/61400738349" className="">
                   <FaWhatsapp className="w-6 h-6" />
                 </a>
               </li>

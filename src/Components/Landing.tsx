@@ -1,8 +1,11 @@
 import { ImagesSlider } from "./ui/ImagesSlider";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const Landing = () => {
-  const images = ["/brooke.jpg", "/lous.jpg", "/vitaly.jpg"];
+  const [t] = useTranslation("global");
+
+  const images = ["/brooke.jpg", "/banner2.jpg", "/vitaly.jpg"];
   return (
     <ImagesSlider className="h-[700px]" images={images} autoplay={true}>
       <motion.div
@@ -17,40 +20,23 @@ const Landing = () => {
         transition={{
           duration: 0.6,
         }}
-        className="z-50 flex flex-col justify-center items-center"
+        className="z-10 flex flex-col justify-center items-center"
       >
-        <motion.p className="font-bold  text-3xl md:text-6xl text-center bg-clip-text text-white py-4 px-2">
-          Las ideas poderosas pueden cambiar el mundo.
+        <motion.p
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className="text-4xl md:text-7xl text-center bg-clip-text text-white py-4 px-2"
+        >
+          {t("carousel.slide1.title1")} <br /> {t("carousel.slide1.title2")}
         </motion.p>
-        <motion.p className="font-bold  text-lg md:text-4xl text-center bg-clip-text text-white/90 py-4 px-5">
-          Llevá tu negocio al siguiente nivel.
+        <motion.p className="font-light font-opensans  text-lg md:text-4xl text-center bg-clip-text text-white/90 py-4 px-5">
+          {t("carousel.slide1.subtitle")}
         </motion.p>
         <a href="mailto:carferrari94@gmail.com">
-          <a
-            href="mailto:carferrari94@gmail.com"
-            className="relative inline-flex items-center justify-center p-4 px-6 py-3 mt-10 overflow-hidden font-medium text-white transition duration-300 ease-out border-2 border-primary rounded-full shadow-md group w-[200px]"
-          >
-            <span className="absolute inset-0 flex items-center justify-center w-full h-full text-primary duration-300 -translate-x-full bg-black/50 group-hover:translate-x-0 ease">
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M14 5l7 7m0 0l-7 7m7-7H3"
-                ></path>
-              </svg>
-            </span>
-            <span className="absolute flex items-center justify-center w-full h-full text-white transition-all duration-300 transform group-hover:translate-x-full ease text-center">
-              Agenda una reunion
-            </span>
-            <span className="relative invisible">Button Text</span>
-          </a>
+          <button className="bg-[#f8c761] mt-10 hover:bg-[#f8c761]/90 w-56 h-12 text-center text-black font-bold">
+            {t("carousel.slide1.button")}
+          </button>
         </a>
       </motion.div>
     </ImagesSlider>

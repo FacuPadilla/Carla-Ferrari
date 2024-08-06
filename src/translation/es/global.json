@@ -1,0 +1,131 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Acerca de mí",
+    "services": "Servicios",
+    "portfolio": "Casos de Exito",
+    "testimonials": "Testimonios",
+    "book": "Libro",
+    "contact": "Contacto"
+  },
+  "carousel": {
+    "slide1": {
+      "title": "Las ideas poderosas, pueden cambiar el mundo.",
+      "title1": "Las ideas poderosas",
+      "title2": "pueden cambiar el mundo.",
+
+      "subtitle": "Llevá tu negocio al siguiente nivel.",
+      "button": "Agenda una reunion"
+    },
+    "slide2": {
+      "title": "Las ideas poderosas, pueden cambiar el mundo.",
+      "subtitle": "Llevá tu negocio al siguiente nivel."
+    },
+    "slide3": {
+      "title": "Las ideas poderosas, pueden cambiar el mundo.",
+      "subtitle": "Llevá tu negocio al siguiente nivel."
+    }
+  },
+  "about": {
+    "title1": "Apostar a calidad",
+    "title2": "y experiencia,",
+    "title3": "marca la diferencia",
+    "title4": " Apostar a calidad y experiencia,",
+    "title5": "Apostar a calidad",
+    "content": "Con más de 10 años de experiencia en la industria, he trabajado en agencias de publicidad y empresas para diversas marcas y rubros en Argentina, España e Irlanda. Desde emprendimientos con bajo presupuesto hasta empresas posicionadas en el mercado, he logrado hacer crecer cada negocio de forma eficiente posicionando la marca y fidelizando clientes. Soy una profesional apasionada y detallista que le da un valor agregado a cada proyecto. ¿Empezamos?",
+    "button": "Más de mí "
+  },
+  "services": {
+    "intro": "¿Querés lanzar tu marca, posicionarte en el mercado o elevar tus ventas? ",
+    "description": "Conocé todas las herramientas y consultá la indicada para tu negocio.",
+    "list": {
+      "copywriting": "Redacción publicitaria",
+      "project_management": "Project management",
+      "communication_strategy": "Estrategia de comunicación",
+      "brand_identity": "Identidad de marca",
+      "script_writing": "Redacción de guiones audiovisuales",
+      "social_media_content": "Creación de contenido en Redes sociales",
+      "seo_sem_writing": "Redacción de textos SEO/SEM"
+    },
+
+    "serviceDescription1": "Escribir no es para todos, simplificá tus conceptos y comunicalos de forma simple y concisa.",
+    "serviceDescription2": "Que tus proyectos lleguen en tiempo y forma con el equipo indicado y el resultado que buscás.",
+    "serviceDescription3": "Es hora de marcar objetivos, tiempos y costos. ¡Lo que no se comunica no se vende!",
+    "serviceDescription4": "¡Arranquemos desde el principio! Quiénes somos, cómo lucimos, quién es nuestro público y cómo vamos a hablarle.",
+    "serviceDescription5": "Si un comercial o un proyecto audiovisual necesita una estructura, manos a la obra.",
+    "serviceDescription6": "¿Por qué seguirías a una marca? Esa es la primer pregunta para sobresalir de la media. ",
+    "serviceDescription7": "Para posicionar, ¡hay que escribir! Los textos técnicos en webs son claves para posicionarte en Google."
+  },
+  "portfolio": {
+    "title": "Dale a tu marca ",
+    "title2": " el empuje que necesita.",
+
+    "subtitle": "Inspirate con nuestros casos de éxito.",
+    "project1": {
+      "title": "Proyecto 1",
+      "description": "Estrategia de Redes sociales"
+    },
+    "project2": {
+      "title": "Proyecto 2",
+      "description": "Un bebé lo cambia todo | Campaña publicitaria"
+    },
+    "project3": {
+      "title": "Proyecto 3",
+      "description": "Go for it | Campaña publicitaria."
+    },
+    "project4": {
+      "title": "Proyecto 4",
+      "description": "Estrategia de Redes sociales"
+    },
+    "project5": {
+      "title": "Proyecto 5",
+      "description": "66 fuegos | Campaña publicitaria"
+    },
+    "project6": {
+      "title": "Proyecto 6",
+      "description": "Sentite de 10, sentite Cool sculpting | Campaña publicitaria"
+    }
+  },
+  "testimonials": {
+    "title": "Negocios creciendo, clientes felices",
+    "subtitle": "Conocé a algunos de nuestros partners.",
+    "testimonial1": {
+      "name": "Ana",
+      "position": "Gerenta de Marketing | WeWork",
+      "content": "Fue un placer trabajar con Carli. Además de una gran persona, es una gran profesional. Llevó adelante cada desafío con dedicación y responsabilidad, siempre atenta al más mínimo detalle. Destaco su creatividad y energía positiva para trabajar. Sus aportes eran siempre acertados y fueron claves para el éxito de muchas campañas publicitarias."
+    },
+    "testimonial2": {
+      "name": "Lucía",
+      "position": "Supervisora de cuentas | The community",
+      "content": "Trabajar con Carli es un gusto enorme. Es una persona sumamente creativa y encara los proyectos con la mejor predisposición, entendiendo y resolviendo los pedidos y necesidades del cliente. A nivel personal siempre está dispuesta a ayudar y trasmite la mejor energía."
+    },
+    "testimonial3": {
+      "name": "Facundo",
+      "position": "Desarrollador web | Montagne",
+      "content": "Trabajar con Carla es hacerlo con una persona que ama lo que hace. Siempre dispuesta a trabajar en equipo, aportando creatividad, organización y compromiso, con una energía que se contagia. Espero podamos volver a trabajar juntos pronto!"
+    },
+    "testimonial4": {
+      "name": "Brenda",
+      "position": "Diseñadora gráfica | Alma Buenos Aires",
+      "content": "Trabajamos juntas y puedo asegurar que es una gran profesional. Responsable, buena compañera, resolutiva y sobretodo apasionada por lo que hace. Todo eso hace que sea un gusto trabajar con ella."
+    }
+  },
+  "book": {
+    "title": "Escribir es mi pasión, en todos sus formatos. ",
+    "content": "Mi próximo libro verá la luz muy pronto. ¿Preparados?"
+  },
+  "contact": {
+    "boton": "Contactame",
+    "title": "Contacto",
+    "intro": "Un producto bien comunicado, es una nueva venta.",
+    "call_to_action": "Contactame hoy y agendemos una meeting.",
+    "email": "carferrari94@gmail.com",
+    "phone": "0400738349",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
+    "behance": "Behance"
+  },
+  "footer": {
+    "copyright": "© 2024 Carla Ferrari. Todos los derechos reservados."
+  }
+}
