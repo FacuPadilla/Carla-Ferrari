@@ -10,6 +10,8 @@ export default {
       fontFamily: {
         Questrial: ["Questrial"],
         amsterdam: ["Amsterdam Two", "sans-serif"],
+        chocobold: ["TT Chocolates"],
+        chocoreg: ["TT Chocolates reg"],
 
         opensans: ["Open Sans"],
       },

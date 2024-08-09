@@ -5,6 +5,20 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "TT Chocolates";
+  src: url("./font/chocobold.ttf");
+
+  font-weight: bold;
+  font-style: bold;
+}
+@font-face {
+  font-family: "TT Chocolates reg";
+  src: url("./font/chocoreg.ttf");
+
+  font-weight: bold;
+  font-style: bold;
+}
 
 @tailwind base;
 @tailwind components;

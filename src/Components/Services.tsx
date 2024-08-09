@@ -11,18 +11,20 @@ const Services = () => {
           alt="Descripción de la imagen"
           className="object-cover w-full md:h-full h-[90%]"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-20 flex items-center justify-center h-[90%] md:h-full ">
+        <div className="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center h-[90%] md:h-full ">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
             className="text-center "
           >
-            <h1 className="text-white text-[30px] md:text-5xl lg:text-6xl my-10 px-10 font-bold text-center ">
-              {t("services.intro")}
+            <h1 className="text-white font-chocobold text-5xl md:text-5xl lg:text-7xl my-10 px-10 font-bold text-center ">
+              {t("services.intro")} <br />
+              {t("services.intro1")} <br />
+              {t("services.intro2")}
             </h1>
             <div className="flex items-center justify-center">
-              <h2 className="text-white px-10  md:text-2xl text-xl  text-gray text-center ">
+              <h2 className="text-white font-chocoreg px-10  md:text-3xl text-2xl  text-gray text-center ">
                 {t("services.description")}
               </h2>
             </div>
@@ -72,6 +74,12 @@ const Services = () => {
               <ServiceCard
                 title={t("services.list.seo_sem_writing")}
                 des={t("services.serviceDescription7")}
+              />
+            </div>
+            <div>
+              <ServiceCard
+                title={t("services.list.e-commerce")}
+                des={t("services.serviceDescription8")}
               />
             </div>
           </div>

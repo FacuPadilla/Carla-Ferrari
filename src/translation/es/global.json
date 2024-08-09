@@ -15,7 +15,7 @@
       "title2": "pueden cambiar el mundo.",
 
       "subtitle": "Llevá tu negocio al siguiente nivel.",
-      "button": "Agenda una reunion"
+      "button": "Agendá una reunion"
     },
     "slide2": {
       "title": "Las ideas poderosas, pueden cambiar el mundo.",
@@ -27,16 +27,17 @@
     }
   },
   "about": {
-    "title1": "Apostar a calidad",
-    "title2": "y experiencia,",
-    "title3": "marca la diferencia",
-    "title4": " Apostar a calidad y experiencia,",
-    "title5": "Apostar a calidad",
-    "content": "Con más de 10 años de experiencia en la industria, he trabajado en agencias de publicidad y empresas para diversas marcas y rubros en Argentina, España e Irlanda. Desde emprendimientos con bajo presupuesto hasta empresas posicionadas en el mercado, he logrado hacer crecer cada negocio de forma eficiente posicionando la marca y fidelizando clientes. Soy una profesional apasionada y detallista que le da un valor agregado a cada proyecto. ¿Empezamos?",
+    "title1": "Si buscas experiencia y conocimiento, estás en el lugar indicado",
+    "content1": "Con más de 10 años de experiencia en la industria, trabajé en agencias de publicidad y empresas para diversas marcas y rubros en LATAM, Australia, España e Irlanda. ",
+    "content2": "Con un equipo especializado de profesionales alrededor del mundo, cada proyecto es un nuevo desafío para armar un grupo de trabajo.",
+    "content3": "En emprendimientos o grandes empresas, hacer crecer cada negocio de forma eficiente, posicionando la marca y fidelizando clientes es el primer objetivo.",
+    "content4": "Soy una profesional apasionada y detallista que le da un valor agregado a cada proyecto. ¿Empezamos?",
     "button": "Más de mí "
   },
   "services": {
-    "intro": "¿Querés lanzar tu marca, posicionarte en el mercado o elevar tus ventas? ",
+    "intro": "¿Querés lanzar tu marca,  ",
+    "intro1": "posicionarte en el mercado  ",
+    "intro2": "o elevar tus ventas? ",
     "description": "Conocé todas las herramientas y consultá la indicada para tu negocio.",
     "list": {
       "copywriting": "Redacción publicitaria",
@@ -45,7 +46,8 @@
       "brand_identity": "Identidad de marca",
       "script_writing": "Redacción de guiones audiovisuales",
       "social_media_content": "Creación de contenido en Redes sociales",
-      "seo_sem_writing": "Redacción de textos SEO/SEM"
+      "seo_sem_writing": "Redacción de textos SEO/SEM",
+      "e-commerce": "E-commerce"
     },
 
     "serviceDescription1": "Escribir no es para todos, simplificá tus conceptos y comunicalos de forma simple y concisa.",
@@ -54,7 +56,8 @@
     "serviceDescription4": "¡Arranquemos desde el principio! Quiénes somos, cómo lucimos, quién es nuestro público y cómo vamos a hablarle.",
     "serviceDescription5": "Si un comercial o un proyecto audiovisual necesita una estructura, manos a la obra.",
     "serviceDescription6": "¿Por qué seguirías a una marca? Esa es la primer pregunta para sobresalir de la media. ",
-    "serviceDescription7": "Para posicionar, ¡hay que escribir! Los textos técnicos en webs son claves para posicionarte en Google."
+    "serviceDescription7": "Para posicionar, ¡hay que escribir! Los textos técnicos en webs son claves para posicionarte en Google.",
+    "serviceDescription8": "Que cada tráfico a tu tienda online sea una nueva venta. Mejorá la experiencia digital de tus clientes de inicio a fin."
   },
   "portfolio": {
     "title": "Dale a tu marca ",
@@ -111,13 +114,15 @@
     }
   },
   "book": {
-    "title": "Escribir es mi pasión, en todos sus formatos. ",
+    "title": "Escribir es mi pasión, ",
+    "title1": "en todos sus formatos. ",
     "content": "Mi próximo libro verá la luz muy pronto. ¿Preparados?"
   },
   "contact": {
-    "boton": "Contactame",
+    "boton": "contáctame ",
     "title": "Contacto",
-    "intro": "Un producto bien comunicado, es una nueva venta.",
+    "intro": "Un producto bien comunicado",
+    "intro1": "es una nueva venta.",
     "call_to_action": "Contactame hoy y agendemos una meeting.",
     "email": "carferrari94@gmail.com",
     "phone": "0400738349",

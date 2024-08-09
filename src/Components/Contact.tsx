@@ -10,8 +10,9 @@ const Contact = () => {
       />
       <div className="absolute inset-0 flex items-center justify-center">
         <div className="text-white text-center">
-          <h1 className="md:text-7xl text-4xl font-bold">
-            {t("contact.intro")}
+          <h1 className="md:text-7xl font-chocobold text-4xl font-bold">
+            {t("contact.intro")} <br />
+            {t("contact.intro1")}
           </h1>
           <p className="mt-5 md:text-2xl text-lg">
             {t("contact.call_to_action")}

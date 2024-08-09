@@ -23,7 +23,7 @@ const CardProject = ({
             {title}
           </h1>
           <div className="w-16 h-2 bg-[#f8c761] rounded-full mb-5 transform translate-y-10 group-hover:translate-y-0 duration-300"></div>
-          <p className="opacity-0 py-5  text-white text-xl group-hover:opacity-80 transform duration-500">
+          <p className="opacity-0 py-5 font-chocoreg  text-white text-xl group-hover:opacity-80 transform duration-500">
             {text}
           </p>
         </div>
