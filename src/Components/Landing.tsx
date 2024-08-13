@@ -30,11 +30,11 @@ const Landing = () => {
         >
           {t("carousel.slide1.title1")} <br /> {t("carousel.slide1.title2")}
         </motion.p>
-        <motion.p className="font-chocoreg font-opensans  text-lg md:text-4xl text-center bg-clip-text text-white py-4 px-5">
+        <motion.p className="font-chocoreg  text-lg md:text-4xl text-center bg-clip-text text-white py-4 px-5">
           {t("carousel.slide1.subtitle")}
         </motion.p>
-        <a href="mailto:carferrari94@gmail.com" className="md:hidden">
-          <button className="bg-[#f8c761] mt-10 hover:bg-[#f8c761]/90 w-56 h-12 text-center text-black font-bold">
+        <a href="mailto:info@carlaferrari.net" className="md:hidden">
+          <button className="bg-[#f8c761] mt-10 hover:bg-[#f8c761]/90  w-56 h-12 text-center text-black font-bold">
             {t("carousel.slide1.button")}
           </button>
         </a>

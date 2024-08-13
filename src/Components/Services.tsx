@@ -11,14 +11,14 @@ const Services = () => {
           alt="Descripción de la imagen"
           className="object-cover w-full md:h-full h-[90%]"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center h-[90%] md:h-full ">
+        <div className="absolute inset-0 bg-black bg-opacity-5 flex items-center justify-center h-[90%] md:h-full ">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
             className="text-center "
           >
-            <h1 className="text-white font-chocobold text-5xl md:text-5xl lg:text-7xl my-10 px-10 font-bold text-center ">
+            <h1 className=" text-[#b1757c] font-chocobold text-5xl md:text-5xl lg:text-7xl my-10 px-10 font-bold text-center ">
               {t("services.intro")} <br />
               {t("services.intro1")} <br />
               {t("services.intro2")}
@@ -86,14 +86,16 @@ const Services = () => {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <motion.button
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
-          className="bg-black mt-12 hover:bg-black/80 transition-all transform  text-white   w-48 h-12"
-        >
-          {t("Empezar ahora")}
-        </motion.button>
+        <a href="mailto:carferrari94@gmail.com">
+          <motion.button
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, delay: 0.5 }}
+            className="bg-black mt-12 hover:bg-black/80 transition-all transform  text-white   w-48 h-12"
+          >
+            {t("Empezar ahora")}
+          </motion.button>
+        </a>
       </div>
     </div>
   );

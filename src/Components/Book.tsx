@@ -12,14 +12,20 @@ const Book = () => {
       <div id="book">
         <div className="md:grid md:gap-5 md:grid-cols-2 px-10">
           <div>
-            <h1 className="lg:text-6xl font-chocobold text-5xl font-bold">
+            <h1 className="lg:text-6xl text-[#b1757c]  font-chocobold text-5xl font-bold">
               {t("book.title")} <br />
               {t("book.title1")}
             </h1>
-            <p className="lg:text-3xl text-2xl my-5">{t("book.content")}</p>
+            <p className="lg:text-3xl text-2xl my-5 text-[#b1757c] ">
+              {t("book.content")}
+            </p>
           </div>
           <div className="">
-            <img src="/book.jpg" alt="" className="w-[700px] h-[600px]" />
+            <img
+              src="/book.jpg"
+              alt=""
+              className="md:w-[700px] md:h-[600px] "
+            />
           </div>
         </div>
       </div>

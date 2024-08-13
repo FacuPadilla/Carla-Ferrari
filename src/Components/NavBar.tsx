@@ -13,18 +13,27 @@ const Navbar: React.FC = () => {
   return (
     <nav
       className={`fixed top-0 left-0 right-0  z-20 ${
-        openMenu ? "bg-primary text-black" : "bg-transparent text-white"
+        openMenu ? "bg-white text-black" : "bg-transparent text-white"
       } `}
     >
       <div className="h-24 px-5 md:px-10 flex  items-center bg-transparent w-full">
         <div className=" w-full flex justify-start items-center mt-5">
           <div>
-            <p className="font-amsterdam text-[28px] md:text-[22px] lg:text-[18px] xl:text-[26px]">
+            {/* <p className="font-amsterdam text-[28px] md:text-[22px] lg:text-[18px] xl:text-[26px]">
               Carla Ferrari
             </p>
             <p className="font-Questrial text-[15px] md:text-[10px] xl:text-[13px] my-2 text-center">
               Ad & marketing specialist
-            </p>
+            </p> */}
+            <img
+              src={` ${openMenu ? "/logoblack.png" : "/logogrande.png"} `}
+              alt=""
+              className={`${
+                openMenu
+                  ? "h-[100px]"
+                  : "xl:h-[350px] xl:pt-10  md:pt-10 md:h-[350px] pt-5 h-[250px]"
+              }  `}
+            />
           </div>
         </div>
         <div>
@@ -86,7 +95,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
       {openMenu && (
-        <div className="lg:hidden py-10  h-screen overflow-hidden text-black bg-primary ">
+        <div className="lg:hidden py-10  h-screen overflow-hidden text-black bg-white ">
           <div className=" text-center space-y-10 font-bold  h-full text-2xl">
             <div>
               <a href="#about" onClick={handleMenuToggle}>

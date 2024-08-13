@@ -11,7 +11,7 @@ import Testimonial from "./Components/Testimonial";
 
 function App() {
   return (
-    <div className="w-screen relative h-screen overflow-x-hidden bg-primary  font-chocoreg">
+    <div className="w-screen relative h-screen overflow-x-hidden   font-chocoreg">
       <Landing />
 
       <AboutMe />

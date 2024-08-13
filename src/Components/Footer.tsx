@@ -9,19 +9,24 @@ import { IoMdMail } from "react-icons/io";
 const Footer = () => {
   return (
     <div>
-      <footer className=" rounded-lg shadow bg-primary mt-5 ">
+      <footer className=" rounded-lg shadow  mt-5 ">
         <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
           <div className="flex items-center justify-between">
             <a
               href=""
               className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
-              <span className="self-center text-2xl  whitespace-nowrap font-amsterdam">
+              {/* <span className="self-center text-2xl  whitespace-nowrap font-amsterdam">
                 Carla Ferrari <br />
                 <span className="text-xs font-Questrial">
                   Ad & marketing specialist
                 </span>
-              </span>
+              </span> */}
+              <img
+                src="/logoblack2.png"
+                alt=""
+                className="h-[80px] w-[190px]  "
+              />
             </a>
             <ul className="flex flex-wrap  mb-6 text-sm   sm:mb-0 ">
               <li>

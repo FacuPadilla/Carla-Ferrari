@@ -15,7 +15,7 @@
       "title2": "pueden cambiar el mundo.",
 
       "subtitle": "Llevá tu negocio al siguiente nivel.",
-      "button": "Agendá una reunion"
+      "button": "Agendá una reunión "
     },
     "slide2": {
       "title": "Las ideas poderosas, pueden cambiar el mundo.",
@@ -27,7 +27,7 @@
     }
   },
   "about": {
-    "title1": "Si buscas experiencia y conocimiento, estás en el lugar indicado",
+    "title1": "Si buscas experiencia y conocimiento, estás en el lugar indicado.",
     "content1": "Con más de 10 años de experiencia en la industria, trabajé en agencias de publicidad y empresas para diversas marcas y rubros en LATAM, Australia, España e Irlanda. ",
     "content2": "Con un equipo especializado de profesionales alrededor del mundo, cada proyecto es un nuevo desafío para armar un grupo de trabajo.",
     "content3": "En emprendimientos o grandes empresas, hacer crecer cada negocio de forma eficiente, posicionando la marca y fidelizando clientes es el primer objetivo.",
@@ -90,7 +90,7 @@
     }
   },
   "testimonials": {
-    "title": "Negocios creciendo, clientes felices",
+    "title": "Negocios creciendo, clientes felices.",
     "subtitle": "Conocé a algunos de nuestros partners.",
     "testimonial1": {
       "name": "Ana",
@@ -119,11 +119,11 @@
     "content": "Mi próximo libro verá la luz muy pronto. ¿Preparados?"
   },
   "contact": {
-    "boton": "contáctame ",
+    "boton": "Contactar ",
     "title": "Contacto",
     "intro": "Un producto bien comunicado",
     "intro1": "es una nueva venta.",
-    "call_to_action": "Contactame hoy y agendemos una meeting.",
+    "call_to_action": "Contactame hoy y agendemos una reunión.",
     "email": "carferrari94@gmail.com",
     "phone": "0400738349",
     "linkedin": "LinkedIn",

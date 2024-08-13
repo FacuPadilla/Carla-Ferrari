@@ -5,7 +5,7 @@ const AboutMe = () => {
   const [t] = useTranslation("global");
   return (
     <section className=" " id="about">
-      <div className="md:grid md:grid-cols-2 py-20 justify-center lg:px-20 px-8 items-center gap-x-10">
+      <div className="md:grid md:grid-cols-2 py-20 justify-center lg:px-20 px-8 items-center gap-x-10 text-[#ae8871]">
         <div className="md:col-span-1 ">
           <motion.h1
             initial={{ opacity: 0, y: 50 }}

@@ -123,10 +123,10 @@ const Testimonial = () => {
         </figure>
       </div> */}
       <div className="my-20">
-        <h1 className="text-center md:text-7xl text-5xl font-chocobold">
+        <h1 className="text-left text-[#b1757c]  md:text-7xl text-5xl font-chocobold">
           {t("testimonials.title")}
         </h1>
-        <h2 className="text-center  md:text-3xl text-2xl  py-5">
+        <h2 className="text-left text-[#b1757c]   md:text-3xl text-2xl  py-5">
           {t("testimonials.subtitle")}
         </h2>
       </div>

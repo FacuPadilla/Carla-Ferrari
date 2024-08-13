@@ -12,7 +12,7 @@ const CasosDeExito = () => {
       transition={{ duration: 1 }}
       id="cases"
     >
-      <div className="">
+      <div className="text-[#ae8871]">
         <h1 className="text-left px-14 text-5xl lg:text-7xl font-bold font-opensans">
           {t("portfolio.title")}
         </h1>
