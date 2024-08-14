@@ -25,7 +25,7 @@ const Footer = () => {
               <img
                 src="/logoblack2.png"
                 alt=""
-                className="h-[80px] w-[190px]  "
+                className="h-[80px] w-[190px]  object-contain"
               />
             </a>
             <ul className="flex flex-wrap  mb-6 text-sm   sm:mb-0 ">

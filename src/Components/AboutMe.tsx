@@ -61,7 +61,7 @@ const AboutMe = () => {
           <img
             src="aboutMe.jpg"
             alt=""
-            className="w-full md:h-[550px] h-[350px]  object-cover"
+            className="w-full md:h-[580px] h-[350px]  object-cover"
           />
         </div>
       </div>

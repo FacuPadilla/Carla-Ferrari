@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
         </div>
         <div>
           <div className="hidden lg:block   w-[550px]">
-            <ul className="flex gap-5 font-normal items-center justify-center text-center text-sm ">
+            <ul className="flex gap-5 font-normal items-center justify-center text-center text-md ">
               <li className="hover:scale-105 text-center transition-all transform hover:font-bold">
                 <a href="#about">{t("navbar.about")}</a>
               </li>
