@@ -24,9 +24,9 @@ const AboutMe = () => {
           </h1>
           <div className="md:col-span-1 py-10 md:hidden ">
             <img
-              src="aboutMe.jpg"
+              src="about.jpg"
               alt=""
-              className="w-full md:h-[550px] h-[350px]  object-cover"
+              className="w-full md:h-[550px] h-[450px]  object-cover"
             />
           </div>
           <motion.div
@@ -59,9 +59,9 @@ const AboutMe = () => {
         </div>
         <div className="md:col-span-1 my-5 hidden md:block">
           <img
-            src="aboutMe.jpg"
+            src="about.jpg"
             alt=""
-            className="w-full md:h-[580px] h-[350px]  object-cover"
+            className="w-full md:h-[700px] h-[350px] p-10  object-cover"
           />
         </div>
       </div>

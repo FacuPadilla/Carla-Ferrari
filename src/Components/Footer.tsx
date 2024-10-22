@@ -22,16 +22,12 @@ const Footer = () => {
                   Ad & marketing specialist
                 </span>
               </span> */}
-              <img
-                src="/logoblack2.png"
-                alt=""
-                className="h-[80px] w-[190px]  object-contain"
-              />
+              <img src="/logofinal.jpg" alt="" className="md:h-48 h-40" />
             </a>
             <ul className="flex flex-wrap  mb-6 text-sm   sm:mb-0 ">
               <li>
                 <a
-                  href="https://www.instagram.com/carferrari94"
+                  href="https://www.instagram.com/communicationco/?igsh=MW16aWJhdm1peWZqag%3D%3D"
                   className="me-8 md:me-10"
                 >
                   <FaInstagram className="w-6 h-6" />
@@ -55,7 +51,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="mailto:carferrari94@gmail.com"
+                  href="mailto:info@carlaferrari.net"
                   className="me-8 md:me-10"
                 >
                   <IoMdMail className="w-6 h-6" />

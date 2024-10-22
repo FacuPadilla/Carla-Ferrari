@@ -13,13 +13,13 @@ const CasosDeExito = () => {
       id="cases"
     >
       <div className="text-[#ae8871]">
-        <h1 className="text-left px-14 text-5xl lg:text-7xl font-bold font-opensans">
+        <h1 className="text-left px-8 text-5xl lg:text-7xl font-bold font-opensans">
           {t("portfolio.title")}
         </h1>
-        <h1 className="text-left px-14 text-5xl lg:text-7xl font-bold font-opensans">
+        <h1 className="text-left px-8 text-5xl lg:text-7xl font-bold font-opensans">
           {t("portfolio.title2")}
         </h1>
-        <h2 className="text-left px-14 py-5 text-2xl lg:text-3xl">
+        <h2 className="text-left px-8 py-5 text-2xl lg:text-3xl">
           {t("portfolio.subtitle")}
         </h2>
       </div>

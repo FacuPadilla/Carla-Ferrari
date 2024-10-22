@@ -1,7 +1,7 @@
 {
   "navbar": {
     "home": "Home",
-    "about": "About Me",
+    "about": "About me",
     "services": "Services",
     "portfolio": "Portfolio",
     "testimonials": "Testimonials",
@@ -26,41 +26,42 @@
     }
   },
   "about": {
-    "title1": "If you are looking for experience and knowledge, you are in the right place",
-    "content1": "With more than 10 years of experience in the industry, I worked in advertising agencies and companies for various brands and sectors in LATAM, Australia, Spain and Ireland. ",
-    "content2": "With a specialized team of professionals around the world, each project is a new challenge to assemble a work group.",
-    "content3": "In startups or large companies, growing each business efficiently, positioning the brand and building customer loyalty is the first objective.",
-    "content4": "I am a passionate and detail-oriented professional who gives added value to each project. Shall we start?",
+    "title1": "If you are looking for experience and knowledge, you are in the right place.",
+    "content1": "With more than 10 years of experience in the industry, I worked in advertising agencies and companies for many different brands and areas in LATAM, Australia, Spain and Ireland.",
+    "content2": "With a specialized team of professionals around the world, each project is a new challenge.",
+    "content3": "From startups to big companies, growing each business efficiently, positioning the brand and building customer loyalty are our main goals.",
+    "content4": "I am a passionate professional who gives added value to my work. Shall we start?",
     "button": "More about me"
   },
   "services": {
     "intro": "Do you want to launch your brand,",
-    "intro1": " position yourself in the market",
+    "intro1": " place it in the market",
     "intro2": " or increase your sales?",
-    "description": "Learn about all the tools and consult the one suitable for your business.",
+    "button": "Start now",
+    "description": "Discover every tool and pick the most suitable for your business.",
     "list": {
       "copywriting": "Copywriting",
-      "project_management": "Project Management",
-      "communication_strategy": "Communication Strategy",
-      "brand_identity": "Brand Identity",
-      "script_writing": "Script Writing",
-      "social_media_content": "Social Media Content Creation",
-      "seo_sem_writing": "SEO/SEM Writing",
+      "project_management": "Project management",
+      "communication_strategy": "Communication strategy",
+      "brand_identity": "Brand identity",
+      "script_writing": "Script writing",
+      "social_media_content": "Social media content creation",
+      "seo_sem_writing": "SEO/SEM writing",
       "e-commerce": "E-commerce"
     },
-    "serviceDescription1": "Writings not for everyone, simplify your concepts and communicate them in a simple and concise way.",
-    "serviceDescription2": "May your projects arrive on time and with the right team and the result you are looking for.",
-    "serviceDescription3": "It's time to set objectives, times and costs. What is not communicated is not sold!",
-    "serviceDescription4": "Let's start from the beginning! Who we are, what we look like, who our audience is and how we are going to talk to them.",
-    "serviceDescription5": "If a commercial or audiovisual project needs a structure, let's get to work.",
-    "serviceDescription6": "Why would you follow a brand? That is the first question to stand out from the average. ",
-    "serviceDescription7": "To position, you have to write! Technical texts on websites are key to positioning yourself on Google.",
-    "serviceDescription8": "May each traffic to your online store be a new sale. Improve your customers' digital experience from start to finish."
+    "serviceDescription1": "Writing is not for everyone, simplify your concepts and let your brand speak in a simple way",
+    "serviceDescription2": "Get your projects on the right time with the results that you are looking for.",
+    "serviceDescription3": " It's time to set your goals, times and budget. What is not communicated won't be sold!",
+    "serviceDescription4": "Let's start from the beginning! Who we are, how we look like, who our audience is and how we are going to talk to them.",
+    "serviceDescription5": " If your audiovisual project needs a structure, let's get to work.",
+    "serviceDescription6": " Why would you follow a brand? That is the first question to stand out from the average.",
+    "serviceDescription7": "Technical texts on websites are key to shine on Google. Let the professionals do their magic!",
+    "serviceDescription8": "Turn each click on your online store a new sale. Improve your customer's digital experience from the beginning."
   },
   "portfolio": {
     "title": "Give your brand",
     "title2": "the push it needs.",
-    "subtitle": "Get inspired by our success stories.",
+    "subtitle": " Get inspired by our successful project",
     "project1": {
       "title": "Project 1",
       "description": "Social media strategy"
@@ -83,44 +84,44 @@
     },
     "project6": {
       "title": "Project 6",
-      "description": "Feeling like a 10, feel Coolsculpting | Ad campaign"
+      "description": "Feeling like a 10, feel Coolsculpting | Advertising  campaign"
     }
   },
   "testimonials": {
-    "title": "Growing business, happy customers",
+    "title": "Business growing, happy customers. Meet some of our partners.",
     "subtitle": "Meet some of our partners.",
     "testimonial1": {
       "name": "Ana",
       "position": "Marketing Manager | WeWork",
-      "content": "It was a pleasure working with Carli. Besides being a great person, she is a great professional. She carried out each challenge with dedication and responsibility, always attentive to the smallest detail. I highlight her creativity and positive energy for work. Her contributions were always accurate and were key to the success of many advertising campaigns."
+      "content": "It was a pleasure work with Carli. Besides being a great person, she is a great professional. She carried out each challenge with dedication and responsibility, always attentive to the smallest detail. I highlight her creativity and positive energy for work. Her contributions were always accurate and were key to the success of many advertising campaigns."
     },
     "testimonial2": {
       "name": "Lucía",
-      "position": "Account Supervisor | The community",
+      "position": "Account superviso | The community",
       "content": "Working with Carli is a great pleasure. She is a highly creative person who approaches projects with the best attitude, understanding and resolving the client's requests and needs. On a personal level, she is always willing to help and brings the best energy."
     },
     "testimonial3": {
       "name": "Facundo",
-      "position": "Web Developer | Montagne",
-      "content": "Working with Carla means working with someone who loves what she does. Always willing to work as a team, contributing creativity, organization, and commitment, with energy that is contagious. I hope we can work together again soon!"
+      "position": "Web developer | Montagne",
+      "content": "Working with Carla means working with someone who loves what she does. Always willing to work as a team, contributing creativity, organization, and commitment, with an energy that is contagious. I hope we can work together again soon!"
     },
     "testimonial4": {
       "name": "Brenda",
-      "position": "Graphic Designer | Alma Buenos Aires",
-      "content": "We worked together and I can assure you that she is a great professional. Responsible, a good teammate, problem solver, and above all, passionate about what she does. All this makes it a pleasure to work with her."
+      "position": "Graphic designer| Alma Buenos Aires",
+      "content": "We worked together and I can assure you that she is a great professional. Responsible, a good teammate, problem solver, and above all, passionate about what she does. That makes it a pleasure to work with her."
     }
   },
   "book": {
     "title": "Writing is my passion,",
-    "title1": " in all its formats.",
-    "content": "My next book will be released very soon. Ready?"
+    "title1": " in every way.",
+    "content": "My next book will be launched soon. Are you ready?"
   },
   "contact": {
     "boton": "Contact me",
     "title": "Contact",
-    "intro": "A well-communicated product.",
+    "intro": "A well-communicated product",
     "intro1": "is a new sale.",
-    "call_to_action": "Contact me today and let's schedule a meeting.",
+    "call_to_action": "Get in touch with me and let's schedule a meeting.",
     "email": "carferrari94@gmail.com",
     "phone": "0400738349",
     "linkedin": "LinkedIn",
@@ -128,6 +129,6 @@
     "behance": "Behance"
   },
   "footer": {
-    "copyright": "© 2024 Carla Ferrari. All rights reserved."
+    "copyright": " © 2024 Carla Ferrari. All Rights Reserved"
   }
 }

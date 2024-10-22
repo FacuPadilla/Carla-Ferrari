@@ -17,7 +17,7 @@ const Contact = () => {
           <p className="mt-5 md:text-2xl text-lg">
             {t("contact.call_to_action")}
           </p>
-          <a href="mailto:carferrari94@gmail.com">
+          <a href="mailto:info@carlaferrari.net">
             <button className="mt-5 bg-[#f8c761]  hover:bg-[#f8c761]/90 w-48 h-12 text-center text-black font-bold">
               {t("contact.boton")}
             </button>

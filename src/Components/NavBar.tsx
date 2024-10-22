@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
             >
               ES
             </button>
-            <a href="mailto:carferrari94@gmail.com">
+            <a href="mailto:info@carlaferrari.net">
               <button className="bg-[#f8c761]  hover:bg-[#f8c761]/90 w-48 h-12 text-center text-black font-bold">
                 {t("carousel.slide1.button")}
               </button>
@@ -125,12 +125,14 @@ const Navbar: React.FC = () => {
             </div>
             <div>
               <a href="#contact" onClick={handleMenuToggle}>
-                {t("navbar.contact")}
+                <button className="bg-black hover:bg-black/80 transition-all transform  text-white   w-52 h-12">
+                  {t("navbar.contact")}
+                </button>
               </a>
             </div>
-            <button className="bg-black hover:bg-black/80 transition-all transform  text-white   w-52 h-12">
+            {/* <button className="bg-black hover:bg-black/80 transition-all transform  text-white   w-52 h-12">
               {t("about.button")}
-            </button>
+            </button> */}
             <div className="flex text-black items-center justify-center gap-5">
               <button
                 className="hover:scale-105 transition-all transform hover:font-bold"

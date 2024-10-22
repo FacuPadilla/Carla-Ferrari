@@ -16,19 +16,15 @@ export const TestiCard = ({
       "
       >
         <div className="bg-transparent h-[540px]  w-[500px] md:px-0 px-12 hover:scale-105 transform transition-all">
-          <div className="flex justify-between py-5 px-10">
+          <div className="flex justify-between py-5 px-10 ">
             <h1 className="font-bold text-lg">{title}</h1>
             <h2 className="text-xs">{subtitle}</h2>
           </div>
           <div className="w-full">
-            <img
-              src={img}
-              alt=""
-              className="w-full h-[300px] px-10 object-contain"
-            />
+            <img src={img} alt="" className="w-full h-[350px] px-10 " />
           </div>
 
-          <p className="py-10 px-5 text-center text-sm md:text-normal">
+          <p className="py-10 px-10 text-center text-sm md:text-normal">
             "{text}"
           </p>
         </div>

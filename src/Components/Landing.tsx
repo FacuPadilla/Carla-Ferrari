@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 const Landing = () => {
   const [t] = useTranslation("global");
 
-  const images = ["/banner1.jpg", "/banner2.jpg", "/vitaly.jpg"];
+  const images = ["/banner2.jpg", "/banner1.jpeg", "/banner3.jpeg"];
   return (
     <ImagesSlider className="h-[700px]" images={images} autoplay={true}>
       <motion.div

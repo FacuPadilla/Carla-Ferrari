@@ -86,14 +86,14 @@ const Services = () => {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <a href="mailto:carferrari94@gmail.com">
+        <a href="mailto:info@carlaferrari.net">
           <motion.button
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
             className="bg-black mt-12 hover:bg-black/80 transition-all transform  text-white   w-48 h-12"
           >
-            {t("Empezar ahora")}
+            {t("services.button")}
           </motion.button>
         </a>
       </div>

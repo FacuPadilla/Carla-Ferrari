@@ -28,9 +28,9 @@
   },
   "about": {
     "title1": "Si buscas experiencia y conocimiento, estás en el lugar indicado.",
-    "content1": "Con más de 10 años de experiencia en la industria, trabajé en agencias de publicidad y empresas para diversas marcas y rubros en LATAM, Australia, España e Irlanda. ",
-    "content2": "Con un equipo especializado de profesionales alrededor del mundo, cada proyecto es un nuevo desafío para armar un grupo de trabajo.",
-    "content3": "En emprendimientos o grandes empresas, hacer crecer cada negocio de forma eficiente, posicionando la marca y fidelizando clientes es el primer objetivo.",
+    "content1": "Con más de 10 años de experiencia en mercado, he trabajado en agencias de publicidad y empresas para diversas marcas y rubros. Originaria de Argentina, he realizado trabajos para LATAM, España, Irlanda y Australia, entre otros. ",
+    "content2": "Con un equipo especializado de profesionales alrededor del mundo, cada proyecto fue un nuevo desafío para armar un grupo de trabajo y adaptarse a las necesidades de cada cliente.",
+    "content3": "Desde emprendimientos a grandes empresas, hacer crecer cada negocio de forma eficiente, posicionar la marca y fidelizar clientes han sido los principales objetivos.",
     "content4": "Soy una profesional apasionada y detallista que le da un valor agregado a cada proyecto. ¿Empezamos?",
     "button": "Más de mí "
   },
@@ -38,6 +38,7 @@
     "intro": "¿Querés lanzar tu marca,  ",
     "intro1": "posicionarte en el mercado  ",
     "intro2": "o elevar tus ventas? ",
+    "button": "Empezar ahora ",
     "description": "Conocé todas las herramientas y consultá la indicada para tu negocio.",
     "list": {
       "copywriting": "Redacción publicitaria",
@@ -116,7 +117,7 @@
   "book": {
     "title": "Escribir es mi pasión, ",
     "title1": "en todos sus formatos. ",
-    "content": "Mi próximo libro verá la luz muy pronto. ¿Preparados?"
+    "content": "Próximamente disponible en Amazon.com"
   },
   "contact": {
     "boton": "Contactar ",
