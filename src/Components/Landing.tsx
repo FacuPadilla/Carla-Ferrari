@@ -1,11 +1,33 @@
 import { ImagesSlider } from "./ui/ImagesSlider";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { useEffect, useState } from "react";
 
 const Landing = () => {
   const [t] = useTranslation("global");
 
-  const images = ["/banner2.jpg", "/banner1.jpeg", "/banner3.jpeg"];
+  // Estado para detectar el tamaño de la pantalla
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  // Detectar el tamaño de la pantalla
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 768); // Verifica si el ancho de la pantalla es menor que 'md' (768px)
+    };
+
+    handleResize(); // Verificar al cargar la página
+    window.addEventListener("resize", handleResize); // Detectar cambios en el tamaño de la pantalla
+
+    return () => {
+      window.removeEventListener("resize", handleResize); // Limpieza del evento
+    };
+  }, []);
+
+  // Array de imágenes basado en el tamaño de la pantalla
+  const images = isSmallScreen
+    ? ["/banner2.jpg", "/banner2small.jpg", "/banner3.jpeg"]
+    : ["/banner2.jpg", "/banner1.jpeg", "/banner3.jpeg"];
+
   return (
     <ImagesSlider className="h-[700px]" images={images} autoplay={true}>
       <motion.div
@@ -30,7 +52,7 @@ const Landing = () => {
         >
           {t("carousel.slide1.title1")} <br /> {t("carousel.slide1.title2")}
         </motion.p>
-        <motion.p className="font-chocoreg  text-lg md:text-4xl text-center bg-clip-text text-white py-4 px-5">
+        <motion.p className="font-chocoreg text-lg md:text-4xl text-center bg-clip-text text-white py-4 px-5">
           {t("carousel.slide1.subtitle")}
         </motion.p>
         <a href="mailto:info@carlaferrari.net" className="md:hidden">

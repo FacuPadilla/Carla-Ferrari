@@ -5,8 +5,10 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const [t] = useTranslation("global");
   return (
     <div>
       <footer className=" rounded-lg shadow  mt-5 ">
@@ -66,11 +68,11 @@ const Footer = () => {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-black lg:my-8" />
           <span className="block text-sm  sm:text-center ">
-            © 2023{" "}
+            {t("footer.copy1")}
             <a href="https://flowbite.com/" className="hover:underline">
-              Carla Ferrari
+              {t("footer.copy2")}
             </a>
-            . All Rights Reserved.
+            {t("footer.copy3")}
           </span>
         </div>
       </footer>

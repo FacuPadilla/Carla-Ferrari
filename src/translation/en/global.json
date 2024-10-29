@@ -61,7 +61,7 @@
   "portfolio": {
     "title": "Give your brand",
     "title2": "the push it needs.",
-    "subtitle": " Get inspired by our successful project",
+    "subtitle": " Get inspired by our successful projects",
     "project1": {
       "title": "Project 1",
       "description": "Social media strategy"
@@ -88,7 +88,7 @@
     }
   },
   "testimonials": {
-    "title": "Business growing, happy customers. Meet some of our partners.",
+    "title": "Business growing, happy customers.",
     "subtitle": "Meet some of our partners.",
     "testimonial1": {
       "name": "Ana",
@@ -114,7 +114,7 @@
   "book": {
     "title": "Writing is my passion,",
     "title1": " in every way.",
-    "content": "My next book will be launched soon. Are you ready?"
+    "content": "Coming soon on Amazon.com."
   },
   "contact": {
     "boton": "Contact me",
@@ -129,6 +129,8 @@
     "behance": "Behance"
   },
   "footer": {
-    "copyright": " © 2024 Carla Ferrari. All Rights Reserved"
+    "copy1": " © 2024 Carla Ferrari. All Rights Reserved",
+    "copy2": " © 2024 Carla Ferrari. All Rights Reserved",
+    "copy3": " © 2024 Carla Ferrari. All Rights Reserved"
   }
 }

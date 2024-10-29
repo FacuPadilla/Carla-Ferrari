@@ -95,12 +95,12 @@
     "subtitle": "Conocé a algunos de nuestros partners.",
     "testimonial1": {
       "name": "Ana",
-      "position": "Gerenta de Marketing | WeWork",
+      "position": "Directora de cuentas | WeWork",
       "content": "Fue un placer trabajar con Carli. Además de una gran persona, es una gran profesional. Llevó adelante cada desafío con dedicación y responsabilidad, siempre atenta al más mínimo detalle. Destaco su creatividad y energía positiva para trabajar. Sus aportes eran siempre acertados y fueron claves para el éxito de muchas campañas publicitarias."
     },
     "testimonial2": {
       "name": "Lucía",
-      "position": "Supervisora de cuentas | The community",
+      "position": "Gerenta de Marketing  | The community",
       "content": "Trabajar con Carli es un gusto enorme. Es una persona sumamente creativa y encara los proyectos con la mejor predisposición, entendiendo y resolviendo los pedidos y necesidades del cliente. A nivel personal siempre está dispuesta a ayudar y trasmite la mejor energía."
     },
     "testimonial3": {
@@ -132,6 +132,8 @@
     "behance": "Behance"
   },
   "footer": {
-    "copyright": "© 2024 Carla Ferrari. Todos los derechos reservados."
+    "copy1": "© 2024 ",
+    "copy2": "Carla Ferrari. ",
+    "copy3": "Todos los derechos reservados."
   }
 }

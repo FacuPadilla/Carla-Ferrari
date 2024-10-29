@@ -21,10 +21,10 @@ export const TestiCard = ({
             <h2 className="text-xs">{subtitle}</h2>
           </div>
           <div className="w-full">
-            <img src={img} alt="" className="w-full h-[350px] px-10 " />
+            <img src={img} alt="" className="w-full md:h-[350px] px-10 " />
           </div>
 
-          <p className="py-10 px-10 text-center text-sm md:text-normal">
+          <p className=" py-5 md:py-10 md:px-5 text-center text-sm md:text-normal">
             "{text}"
           </p>
         </div>

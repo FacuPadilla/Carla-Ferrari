@@ -11,7 +11,7 @@ export const ImagesSlider = ({
   className,
   autoplay = true,
 }: {
-  images: string[];
+  images: string[]; // Este array puede incluir versiones de alta y baja resolución de la misma imagen
   children: React.ReactNode;
   overlay?: React.ReactNode;
   overlayClassName?: string;
@@ -61,7 +61,6 @@ export const ImagesSlider = ({
 
     window.addEventListener("keydown", handleKeyDown);
 
-    // autoplay
     let interval: any;
     if (autoplay) {
       interval = setInterval(() => {
@@ -98,12 +97,22 @@ export const ImagesSlider = ({
 
       {areImagesLoaded && (
         <AnimatePresence>
-          <motion.img
+          <motion.picture
             key={currentIndex}
-            src={loadedImages[currentIndex]}
-            exit="leftExit"
-            className="image h-full w-full absolute inset-0 object-cover object-center"
-          />
+            className="absolute inset-0 h-full w-full"
+          >
+            {/* Usamos srcSet para proveer imágenes en distintas resoluciones */}
+            <source
+              srcSet={`${loadedImages[currentIndex]}?w=1024 1024w, ${loadedImages[currentIndex]}?w=768 768w, ${loadedImages[currentIndex]}?w=480 480w`}
+              sizes="(max-width: 1024px) 100vw, (max-width: 768px) 100vw, 480px"
+            />
+            <motion.img
+              key={currentIndex}
+              src={loadedImages[currentIndex]} // Imagen de fallback
+              className="h-full w-full object-cover object-center"
+              alt={`Slide ${currentIndex + 1}`}
+            />
+          </motion.picture>
         </AnimatePresence>
       )}
     </div>
