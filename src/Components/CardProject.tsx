@@ -10,7 +10,7 @@ const CardProject = ({
   link: string;
 }) => {
   return (
-    <article className="mx-auto w-[370px] md:w-[400px] shadow-xl h-[400px] transform duration-500 hover:-translate-y-2 cursor-pointer group my-10 lg:my-6">
+    <article className="mx-auto w-[370px] md:w-[400px] shadow-xl h-[450px] transform duration-500 hover:-translate-y-2 cursor-pointer group my-10 lg:my-6">
       <a href={link}>
         <div className="relative h-full">
           <img
