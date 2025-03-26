@@ -21,11 +21,14 @@ const Book = () => {
             </p>
           </div>
           <div className="">
-            <img
-              src="/book.jpg"
-              alt=""
-              className="md:w-[700px] md:h-[600px] "
-            />
+            <a href="https://a.co/d/6y8uyd3">
+              <img
+                src="/booknew.jpg"
+                alt="Libro"
+                className="md:w-[700px] md:h-[720px] w-full h-auto object-cover "
+                loading="lazy"
+              />
+            </a>
           </div>
         </div>
       </div>

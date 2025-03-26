@@ -44,7 +44,7 @@ const CasosDeExito = () => {
           <CardProject
             title="Allergan"
             text={t("portfolio.project3.description")}
-            img="/portfolio3.JPG"
+            img="/portfolio3.JPGGgg.png"
             link="https://www.behance.net/gallery/147506437/Allergan-Campaign"
           />
         </div>
@@ -52,7 +52,7 @@ const CasosDeExito = () => {
           <CardProject
             title="La Malbequería"
             text={t("portfolio.project4.description")}
-            img="/11.jpg"
+            img="/portfolio4.JPG.jpg"
             link="https://www.behance.net/gallery/147510987/La-Malbequeria-Social-media"
           />
         </div>
@@ -61,7 +61,7 @@ const CasosDeExito = () => {
           <CardProject
             title="Lo De Jesús"
             text={t("portfolio.project5.description")}
-            img="/12.jpg"
+            img="/lodejesuss.webp"
             link="https://www.behance.net/gallery/148733719/Lo-De-Jesus-Campaign"
           />
         </div>
