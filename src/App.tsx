@@ -6,7 +6,6 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Landing from "./Components/Landing";
 import Plans from "./Components/Plans";
-import Services from "./Components/Services";
 import Testimonial from "./Components/Testimonial";
 
 function App() {
