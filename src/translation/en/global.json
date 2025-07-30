@@ -139,6 +139,47 @@
       "title": "Communication for brands that are born, transform, or grow.",
       "subtitle": "Learn about all our plans for your business based on your investment, resources, and energy."
     },
+    "cards": {
+      "plan1": {
+        "shortDescription": "Complete brand and digital communication management.",
+        "features": [
+          "Complete branding",
+          "Social media management",
+          "Web development",
+          "Email marketing"
+        ],
+        "price": "From USD 200/month"
+      },
+      "plan2": {
+        "shortDescription": "Personalized strategic consulting 1:1.",
+        "features": [
+          "1:1 meetings",
+          "Brand diagnosis",
+          "Personalized strategy",
+          "PDF materials"
+        ],
+        "price": "From USD 80/session"
+      },
+      "plan3": {
+        "shortDescription": "Intensive class on branding and social media.",
+        "features": [
+          "60-90 min class",
+          "Social media strategy",
+          "Basic branding",
+          "Q&A session"
+        ],
+        "price": "From USD 50/person"
+      },
+      "includesLabel": "Includes:",
+      "knowMoreButton": "Learn more"
+    },
+    "modal": {
+      "forWhoTitle": "This plan is for you if:",
+      "includesTitle": "What does this plan include?",
+      "topicsTitle": "Topics:",
+      "modalityTitle": "Modality",
+      "contactButton": "Contact"
+    },
     "plan1": {
       "title": "I take care of everything",
       "subtitle": "For when you need to delegate and know that your brand is in good hands.",

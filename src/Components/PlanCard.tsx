@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface PlanCardProps {
   planNumber: string;
@@ -26,46 +27,17 @@ const PlanCard = ({
   extra,
 }: PlanCardProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [t] = useTranslation("global");
 
-  // Información resumida para la tarjeta
-  const getShortDescription = () => {
-    switch (planNumber) {
-      case "1":
-        return "Gestión completa de tu marca y comunicación digital.";
-      case "2":
-        return "Asesoramiento estratégico personalizado 1:1.";
-      case "3":
-        return "Clase intensiva sobre branding y redes sociales.";
-      default:
-        return subtitle;
-    }
-  };
-
-  const getMainFeatures = () => {
-    switch (planNumber) {
-      case "1":
-        return [
-          "Branding completo",
-          "Gestión de redes sociales",
-          "Desarrollo web",
-          "Email marketing",
-        ];
-      case "2":
-        return [
-          "Reuniones 1:1",
-          "Diagnóstico de marca",
-          "Estrategia personalizada",
-          "Material PDF",
-        ];
-      case "3":
-        return [
-          "Clase 60-90 min",
-          "Estrategia de redes",
-          "Branding básico",
-          "Q&A session",
-        ];
-      default:
-        return includes ? includes.slice(0, 3) : [];
+  // Obtener características de manera segura
+  const getFeatures = () => {
+    try {
+      const features = t(`plans.cards.plan${planNumber}.features`, {
+        returnObjects: true,
+      });
+      return Array.isArray(features) ? features : [];
+    } catch {
+      return [];
     }
   };
 
@@ -87,16 +59,16 @@ const PlanCard = ({
             "{title}"
           </h3>
           <p className="text-gray-600 font-chocoreg text-sm mb-4 text-center">
-            {getShortDescription()}
+            {t(`plans.cards.plan${planNumber}.shortDescription`)}
           </p>
 
           {/* Características principales */}
           <div className="mb-6">
             <h4 className="font-chocobold text-sm mb-3 text-gray-700">
-              Incluye:
+              {t("plans.cards.includesLabel")}
             </h4>
             <ul className="space-y-1">
-              {getMainFeatures().map((feature, index) => (
+              {getFeatures().map((feature: string, index: number) => (
                 <li key={index} className="flex items-start">
                   <span className="text-[#b1757c] mr-2 text-xs">•</span>
                   <span className="font-chocoreg text-xs text-gray-600">
@@ -112,11 +84,7 @@ const PlanCard = ({
         <div>
           <div className="mb-4 text-center">
             <p className="font-chocobold text-lg text-[#b1757c]">
-              {planNumber === "1"
-                ? "Desde USD 200/mes"
-                : planNumber === "2"
-                ? "Desde USD 80/sesión"
-                : "Desde USD 50/persona"}
+              {t(`plans.cards.plan${planNumber}.price`)}
             </p>
           </div>
 
@@ -124,7 +92,7 @@ const PlanCard = ({
             onClick={() => setIsModalOpen(true)}
             className="w-full bg-[#b1757c] hover:bg-[#9d6169] transition-all text-white font-chocobold py-3 px-4 rounded text-sm"
           >
-            Conocer más
+            {t("plans.cards.knowMoreButton")}
           </button>
         </div>
       </div>
@@ -151,12 +119,11 @@ const PlanCard = ({
               <p className="text-gray-600 font-chocoreg italic text-sm mb-4">
                 {subtitle}
               </p>
-              <p className="text-gray-700 font-chocoreg mb-6">{description}</p>
 
               {/* Para quién es */}
               <div className="mb-6">
                 <h3 className="font-chocobold text-lg mb-3">
-                  Este plan es para vos si:
+                  {t("plans.modal.forWhoTitle")}
                 </h3>
                 <ul className="space-y-2">
                   {forWho.map((item, index) => (
@@ -171,7 +138,7 @@ const PlanCard = ({
               {/* Qué incluye */}
               <div className="mb-6">
                 <h3 className="font-chocobold text-lg mb-3">
-                  ¿Qué incluye{planNumber === "3" ? "" : " este plan"}?
+                  {t("plans.modal.includesTitle")}
                 </h3>
                 <ul className="space-y-2">
                   {includes.map((item, index) => (
@@ -186,7 +153,9 @@ const PlanCard = ({
               {/* Temas (solo para plan 3) */}
               {topics && (
                 <div className="mb-6">
-                  <h3 className="font-chocobold text-lg mb-3">Temas:</h3>
+                  <h3 className="font-chocobold text-lg mb-3">
+                    {t("plans.modal.topicsTitle")}
+                  </h3>
                   <ul className="space-y-2">
                     {topics.map((topic, index) => (
                       <li key={index} className="flex items-start">
@@ -209,7 +178,7 @@ const PlanCard = ({
                       : "👩‍🏫"}
                   </span>
                   <h3 className="font-chocobold text-lg">
-                    Modalidad{planNumber === "2" ? " / Opciones" : ""}:
+                    {t("plans.modal.modalityTitle")}:
                   </h3>
                 </div>
                 <p className="font-chocoreg text-sm">{modality}</p>
@@ -228,7 +197,7 @@ const PlanCard = ({
               <div className="text-center">
                 <a href="mailto:info@carlaferrari.net">
                   <button className="bg-black hover:bg-black/80 transition-all text-white font-chocobold py-3 px-8 rounded">
-                    Contactar
+                    {t("plans.modal.contactButton")}
                   </button>
                 </a>
               </div>

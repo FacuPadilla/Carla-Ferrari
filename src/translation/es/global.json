@@ -142,6 +142,47 @@
       "title": "Comunicación para marcas que nacen, se transforman o crecen.",
       "subtitle": "Conocé todos nuestros planes para tu negocio según tu inversión, tus recursos y tu energía."
     },
+    "cards": {
+      "plan1": {
+        "shortDescription": "Gestión completa de tu marca y comunicación digital.",
+        "features": [
+          "Branding completo",
+          "Gestión de redes sociales",
+          "Desarrollo web",
+          "Email marketing"
+        ],
+        "price": "Desde USD 200/mes"
+      },
+      "plan2": {
+        "shortDescription": "Asesoramiento estratégico personalizado 1:1.",
+        "features": [
+          "Reuniones 1:1",
+          "Diagnóstico de marca",
+          "Estrategia personalizada",
+          "Material PDF"
+        ],
+        "price": "Desde USD 80/sesión"
+      },
+      "plan3": {
+        "shortDescription": "Clase intensiva sobre branding y redes sociales.",
+        "features": [
+          "Clase 60-90 min",
+          "Estrategia de redes",
+          "Branding básico",
+          "Sesión de preguntas"
+        ],
+        "price": "Desde USD 50/persona"
+      },
+      "includesLabel": "Incluye:",
+      "knowMoreButton": "Conocer más"
+    },
+    "modal": {
+      "forWhoTitle": "Este plan es para vos si:",
+      "includesTitle": "¿Qué incluye este plan?",
+      "topicsTitle": "Temas:",
+      "modalityTitle": "Modalidad",
+      "contactButton": "Contactar"
+    },
     "plan1": {
       "title": "Me ocupo de todo",
       "subtitle": "Para cuando necesitás delegar y saber que tu marca está en buenas manos.",
