@@ -18,7 +18,7 @@ const PlanCard = ({
   planNumber,
   title,
   subtitle,
-  description,
+
   forWho,
   includes,
   topics,
