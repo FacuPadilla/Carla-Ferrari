@@ -6,23 +6,24 @@
     "portfolio": "Casos de éxito ",
     "testimonials": "Testimonios",
     "book": "Libro",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "plans": "Planes"
   },
   "carousel": {
     "slide1": {
-      "title": "Las ideas poderosas, pueden cambiar el mundo.",
-      "title1": "Las ideas poderosas",
-      "title2": "pueden cambiar el mundo.",
+      "title": "Hago crecer proyectos de mujeres.",
+      "title1": "Hago crecer proyectos ",
+      "title2": "de mujeres.",
 
       "subtitle": "Llevá tu negocio al siguiente nivel.",
       "button": "Agendá una reunión "
     },
     "slide2": {
-      "title": "Las ideas poderosas, pueden cambiar el mundo.",
+      "title": "Hago crecer proyectos de mujeres.",
       "subtitle": "Llevá tu negocio al siguiente nivel."
     },
     "slide3": {
-      "title": "Las ideas poderosas, pueden cambiar el mundo.",
+      "title": "Hago crecer proyectos de mujeres.",
       "subtitle": "Llevá tu negocio al siguiente nivel."
     }
   },
@@ -135,5 +136,88 @@
     "copy1": "© 2024 ",
     "copy2": "Carla Ferrari. ",
     "copy3": "Todos los derechos reservados."
+  },
+  "plans": {
+    "hero": {
+      "title": "Comunicación para marcas que nacen, se transforman o crecen.",
+      "subtitle": "Conocé todos nuestros planes para tu negocio según tu inversión, tus recursos y tu energía."
+    },
+    "plan1": {
+      "title": "Me ocupo de todo",
+      "subtitle": "Para cuando necesitás delegar y saber que tu marca está en buenas manos.",
+      "description": "Este plan es para vos si:",
+      "forWho": {
+        "item1": "Tenés una marca en marcha o por lanzar.",
+        "item2": "No tenés tiempo (ni ganas) de ocuparte de las redes, la web o la comunicación.",
+        "item3": "Querés profesionalizar lo que hacés y mostrarlo como se merece."
+      },
+      "includes": {
+        "item1": "Branding completo o rebranding de marca (logo, identidad visual, personalidad de marca).",
+        "item2": "Gestión de redes sociales: estrategia, diseños, edición y programación de posteos y/o moderación de contenidos.",
+        "item3": "Branding en redes sociales: foto de perfil, descripción de bio, fotos ancladas, stories destacadas, canales de contacto.",
+        "item4": "Pauta ($) en redes sociales (Facebook Ads, Instagram Ads).",
+        "item5": "Producción de contenido visual: foto o video shootings o selección de material en bancos de imágenes.",
+        "item6": "Acciones y canjes con influencers.",
+        "item7": "Diseño y desarrollo web (sitio institucional o e-commerce).",
+        "item8": "Posicionamiento de página web (Google Ads).",
+        "item9": "Email marketing y creación de base de datos.",
+        "item10": "Moderación y gestión de reviews en Google maps.",
+        "item11": "Diseño gráfico de piezas off-line y merchandising (tarjetas personales, stickers, folletería, remeras, tote bags, flyers, cuadros, ploteos, etc.)",
+        "item12": "Activaciones de marca: sorteos, colaboraciones, eventos, ideas para conectar con tu comunidad."
+      },
+      "modality": "Gestión mensual (desde USD 200).",
+      "pricing": "Servicios especiales cotizados por separado.",
+      "extra": "Es como tener tu propia directora creativa, pero freelance."
+    },
+    "plan2": {
+      "title": "Te Acompaño",
+      "subtitle": "A veces no hace falta que lo haga otro, solo que alguien te diga por dónde ir.",
+      "description": "Este plan es para vos si:",
+      "forWho": {
+        "item1": "Querés hacer vos misma tu contenido, pero no sabés por dónde arrancar.",
+        "item2": "Sentís que estás haciendo mucho, pero sin estrategia.",
+        "item3": "Necesitás un mapa, una mirada externa, un \"esto sí, esto no\"."
+      },
+      "includes": {
+        "item1": "Reuniones personalizadas 1:1 (virtuales o presenciales).",
+        "item2": "Diagnóstico profundo de tu marca y sus desafíos actuales.",
+        "item3": "Estrategia de acción clara, creativa y adaptada a tu momento.",
+        "item4": "Entrega de material PDF con ideas, calendario, tono, tips.",
+        "item5": "Seguimiento opcional para ver avances o ajustar el plan."
+      },
+      "modality": "Pack de 2 o 3 reuniones (desde USD 200).",
+      "pricing": "Sesiones sueltas o seguimiento mensual (desde USD 80 por encuentro).",
+      "extra": "Tu marca puede crecer. Yo te acompaño a ordenarla, entenderla y mostrarla con fuerza."
+    },
+    "plan3": {
+      "title": "Te enseño",
+      "subtitle": "Una clase. Una hora. Todo lo que necesitás saber para empezar con claridad.",
+      "description": "Este plan es para vos si:",
+      "forWho": {
+        "item1": "Estás dando tus primeros pasos.",
+        "item2": "Querés entender cómo funcionan las redes, la marca y la comunicación.",
+        "item3": "No tenés presupuesto para delegar, pero sí querés formarte."
+      },
+      "includes": {
+        "item1": "Una clase intensiva (grupal o individual) de 60 a 90 minutos.",
+        "item2": "Espacio para preguntas al final."
+      },
+      "topics": {
+        "item1": "Cómo comunicar tu marca.",
+        "item2": "Estrategia para redes sociales.",
+        "item3": "Qué es el branding y por qué importa.",
+        "item4": "Tendencias, frecuencia, conexión con tu audiencia.",
+        "item5": "Cómo pautar, cuándo vender, cómo fidelizar.",
+        "item6": "Herramientas y recursos gratuitos."
+      },
+      "modality": "Clase grupal: desde USD 50 por persona.",
+      "pricing": "Clase individual: desde USD 100.",
+      "extra": "No necesitás saberlo todo. Pero sí entender lo básico para que tu comunicación no juegue en tu contra."
+    },
+    "cta": {
+      "question": "¿No sabés cuál elegir?",
+      "answer": "No pasa nada. Escribime, contame en qué estás, y armamos juntas la mejor opción para vos.",
+      "button": "Empezar ahora"
+    }
   }
 }

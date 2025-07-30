@@ -6,22 +6,23 @@
     "portfolio": "Portfolio",
     "testimonials": "Testimonials",
     "book": "Book",
-    "contact": "Contact"
+    "contact": "Contact",
+    "plans": "Plans"
   },
   "carousel": {
     "slide1": {
-      "title": "Powerful ideas can change the world.",
-      "title1": "Powerful ideas",
-      "title2": "can change the world.",
+      "title": " I help women's projects to flourish.",
+      "title1": "I help women's projects",
+      "title2": "to flourish.",
       "subtitle": "Take your business to the next level.",
       "button": "Schedule a meeting"
     },
     "slide2": {
-      "title": "Powerful ideas can change the world.",
+      "title": " I help women's projects to flourish.",
       "subtitle": "Take your business to the next level."
     },
     "slide3": {
-      "title": "Powerful ideas can change the world.",
+      "title": " I help women's projects to flourish.",
       "subtitle": "Take your business to the next level."
     }
   },
@@ -97,7 +98,7 @@
     },
     "testimonial2": {
       "name": "Lucía",
-      "position": "Account superviso | The community",
+      "position": "Account supervisor | The community",
       "content": "Working with Carli is a great pleasure. She is a highly creative person who approaches projects with the best attitude, understanding and resolving the client's requests and needs. On a personal level, she is always willing to help and brings the best energy."
     },
     "testimonial3": {
@@ -132,5 +133,88 @@
     "copy1": " © 2024 Carla Ferrari. All Rights Reserved",
     "copy2": " © 2024 Carla Ferrari. All Rights Reserved",
     "copy3": " © 2024 Carla Ferrari. All Rights Reserved"
+  },
+  "plans": {
+    "hero": {
+      "title": "Communication for brands that are born, transform, or grow.",
+      "subtitle": "Learn about all our plans for your business based on your investment, resources, and energy."
+    },
+    "plan1": {
+      "title": "I take care of everything",
+      "subtitle": "For when you need to delegate and know that your brand is in good hands.",
+      "description": "This plan is for you if:",
+      "forWho": {
+        "item1": "You have a brand in progress or ready to launch.",
+        "item2": "You don't have time (or desire) to handle social media, web, or communication.",
+        "item3": "You want to professionalize what you do and show it as it deserves."
+      },
+      "includes": {
+        "item1": "Complete branding or rebranding (logo, visual identity, brand personality).",
+        "item2": "Social media management: strategy, designs, editing and scheduling posts and/or content moderation.",
+        "item3": "Social media branding: profile photo, bio description, pinned photos, highlighted stories, contact channels.",
+        "item4": "Social media advertising (Facebook Ads, Instagram Ads).",
+        "item5": "Visual content production: photo or video shoots or material selection from image banks.",
+        "item6": "Actions and exchanges with influencers.",
+        "item7": "Web design and development (institutional site or e-commerce).",
+        "item8": "Website positioning (Google Ads).",
+        "item9": "Email marketing and database creation.",
+        "item10": "Moderation and management of Google Maps reviews.",
+        "item11": "Graphic design of offline pieces and merchandising (business cards, stickers, brochures, t-shirts, tote bags, flyers, frames, plots, etc.)",
+        "item12": "Brand activations: giveaways, collaborations, events, ideas to connect with your community."
+      },
+      "modality": "Monthly management (from USD 200).",
+      "pricing": "Special services quoted separately.",
+      "extra": "It's like having your own creative director, but freelance."
+    },
+    "plan2": {
+      "title": "I accompany you",
+      "subtitle": "Sometimes you don't need someone else to do it, just someone to tell you where to go.",
+      "description": "This plan is for you if:",
+      "forWho": {
+        "item1": "You want to create your own content, but don't know where to start.",
+        "item2": "You feel like you're doing a lot, but without strategy.",
+        "item3": "You need a map, an external perspective, a \"this yes, this no\"."
+      },
+      "includes": {
+        "item1": "Personalized 1:1 meetings (virtual or in-person).",
+        "item2": "Deep diagnosis of your brand and its current challenges.",
+        "item3": "Clear, creative action strategy adapted to your moment.",
+        "item4": "Delivery of PDF material with ideas, calendar, tone, tips.",
+        "item5": "Optional follow-up to see progress or adjust the plan."
+      },
+      "modality": "Pack of 2 or 3 meetings (from USD 200).",
+      "pricing": "Single sessions or monthly follow-up (from USD 80 per meeting).",
+      "extra": "Your brand can grow. I accompany you to organize it, understand it and show it with strength."
+    },
+    "plan3": {
+      "title": "I teach you",
+      "subtitle": "One class. One hour. Everything you need to know to start with clarity.",
+      "description": "This plan is for you if:",
+      "forWho": {
+        "item1": "You are taking your first steps.",
+        "item2": "You want to understand how social media, branding and communication work.",
+        "item3": "You don't have budget to delegate, but you do want to train yourself."
+      },
+      "includes": {
+        "item1": "An intensive class (group or individual) of 60 to 90 minutes.",
+        "item2": "Space for questions at the end."
+      },
+      "topics": {
+        "item1": "How to communicate your brand.",
+        "item2": "Social media strategy.",
+        "item3": "What is branding and why it matters.",
+        "item4": "Trends, frequency, connection with your audience.",
+        "item5": "How to advertise, when to sell, how to build loyalty.",
+        "item6": "Free tools and resources."
+      },
+      "modality": "Group class: from USD 50 per person.",
+      "pricing": "Individual class: from USD 100.",
+      "extra": "You don't need to know everything. But you do need to understand the basics so your communication doesn't work against you."
+    },
+    "cta": {
+      "question": "Don't know which one to choose?",
+      "answer": "No problem. Write to me, tell me where you are, and together we'll create the best option for you.",
+      "button": "Start now"
+    }
   }
 }

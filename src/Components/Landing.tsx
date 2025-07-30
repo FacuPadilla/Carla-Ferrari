@@ -25,8 +25,8 @@ const Landing = () => {
 
   // Array de imágenes basado en el tamaño de la pantalla
   const images = isSmallScreen
-    ? ["/banner2.jpg", "/banner2small.jpg", "/banner3.jpeg"]
-    : ["/banner2.jpg", "/banner1.jpeg", "/banner3.jpeg"];
+    ? ["/banner2.jpg", "/banner3.jpeg"]
+    : ["/banner2.jpg", "/banner3.jpeg"];
 
   return (
     <ImagesSlider className="h-[700px]" images={images} autoplay={true}>

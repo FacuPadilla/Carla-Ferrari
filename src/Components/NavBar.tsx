@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
                 <a href="#about">{t("navbar.about")}</a>
               </li>
               <li className="hover:scale-105 transition-all transform hover:font-bold">
-                <a href="#services">{t("navbar.services")}</a>
+                <a href="#plans">{t("navbar.plans")}</a>
               </li>
               <li className="hover:scale-105 transition-all transform hover:font-bold">
                 <a href="#cases">{t("navbar.portfolio")}</a>

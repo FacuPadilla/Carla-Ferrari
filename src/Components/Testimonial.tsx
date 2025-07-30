@@ -133,13 +133,13 @@ const Testimonial = () => {
 
       <div className="flex flex-wrap gap-y-14 gap-x-28 items-center justify-center">
         <TestiCard
-          title={t("testimonials.testimonial2.name")}
+          title={t("testimonials.testimonial1.name")}
           img="/testimonio1.jpeg"
           subtitle={t("testimonials.testimonial1.position")}
           text={t("testimonials.testimonial1.content")}
         />
         <TestiCard
-          title={t("testimonials.testimonial1.name")}
+          title={t("testimonials.testimonial2.name")}
           img="/testimonio2.jpg"
           subtitle={t("testimonials.testimonial2.position")}
           text={t("testimonials.testimonial2.content")}
