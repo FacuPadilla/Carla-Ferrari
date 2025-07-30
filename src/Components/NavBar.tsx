@@ -104,8 +104,8 @@ const Navbar: React.FC = () => {
             </div>
             <div>
               {" "}
-              <a href="#services" onClick={handleMenuToggle}>
-                {t("navbar.services")}
+              <a href="#plans" onClick={handleMenuToggle}>
+                {t("navbar.plans")}
               </a>
             </div>
             <div>
