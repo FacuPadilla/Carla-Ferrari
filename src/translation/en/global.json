@@ -27,11 +27,12 @@
     }
   },
   "about": {
-    "title1": "If you are looking for experience and knowledge, you are in the right place.",
-    "content1": "With more than 10 years of experience in the industry, I worked in advertising agencies and companies for many different brands and areas in LATAM, Australia, Spain and Ireland.",
-    "content2": "With a specialized team of professionals around the world, each project is a new challenge.",
-    "content3": "From startups to big companies, growing each business efficiently, positioning the brand and building customer loyalty are our main goals.",
-    "content4": "I am a passionate professional who gives added value to my work. Shall we start?",
+    "info": "ABOUT ME |",
+    "title1": "Your project, with guidance and strategy",
+    "content1": "With over 10 years of experience, I have helped women from different countries bring their ideas and brands to life.",
+    "content2": "From Argentina to the world, I have worked across LATAM, Spain, Ireland, and Australia — always adapting each project to the real needs of the women leading them.",
+    "content3": "I build tailored teams, support every step of the process, and focus on what truly matters: growing with strategy, positioning with purpose, and building authentic connections with customers",
+    "content4": "If you have an idea, a venture, or a brand you want to take further, I will walk the path with you. Shall we start?",
     "button": "More about me"
   },
   "services": {
@@ -113,9 +114,17 @@
     }
   },
   "book": {
-    "title": "Destrucción es ",
-    "title1": "una forma de creación ",
-    "content": "Get your physical or e-book at Amazon.com"
+    "sectionTitle": "BOOK |",
+    "title": "Destruction is",
+    "title1": "a form of creation",
+    "description": "Published in 2025, Destruction is a form of creation is an independent literary project that I led and developed alongside a team of talented women.",
+    "origin": "It was born after a personal and professional crisis, as a way to rise above through writing and creativity.",
+    "about": "The book is a collection of eight magical realism short stories, which began taking shape in 2018 and, after an intense process, was finally published.",
+    "reach": "Today, the book has reached readers in over five countries and is available online.",
+    "cta": "Get your physical or e-book copy on Amazon.com",
+    "note": "Available only in Spanish",
+    "amazonLink": "https://www.amazon.com/dp/B0DYMLJYTL?ref=cm_sw_r_ffobk_cso_cp_mwn_dp_KQGEYW443WWQ8Z7CY0B3&ref_=cm_sw_r_ffobk_cso_cp_mwn_dp_KQGEYW443WWQ8Z7CY0B3&social_share=cm_sw_r_ffobk_cso_cp_mwn_dp_KQGEYW443WWQ8Z7CY0B3&bestFormat=true",
+    "buttonText": "Buy on Amazon"
   },
   "contact": {
     "boton": "Contact me",
@@ -139,118 +148,127 @@
       "title": "Communication for brands that are born, transform, or grow.",
       "subtitle": "Learn about all our plans for your business based on your investment, resources, and energy."
     },
+    "sectionTitle": "PLANS |",
     "cards": {
       "plan1": {
-        "shortDescription": "Complete brand and digital communication management.",
+        "shortDescription": "Full management of your brand and digital communication.",
         "features": [
-          "Complete branding",
-          "Social media management",
-          "Web development",
-          "Email marketing"
+          "Brand identity and strategy",
+          "Social media setup and optimization",
+          "Monthly social media management",
+          "Paid social advertising (Meta Ads)",
+          "+ Extra services available upon request"
         ],
-        "price": "From USD 200/month"
+        "price": "💰 Starting at USD 250/month"
       },
       "plan2": {
-        "shortDescription": "Personalized strategic consulting 1:1.",
+        "shortDescription": "Strategic guidance through 3 one-on-one online sessions.",
         "features": [
-          "1:1 meetings",
           "Brand diagnosis",
-          "Personalized strategy",
-          "PDF materials"
+          "Personalized communication strategy",
+          "Follow-up and final review",
+          "PDF support material",
+          "+ Option to book additional sessions"
         ],
-        "price": "From USD 80/session"
+        "price": "💰 USD 210 / 3 sessions"
       },
       "plan3": {
         "shortDescription": "Intensive class on branding and social media.",
         "features": [
-          "60-90 min class",
+          "60-min online class (individual or group)",
           "Social media strategy",
-          "Basic branding",
+          "Basic branding concepts",
           "Q&A session"
         ],
-        "price": "From USD 50/person"
+        "price": "💰 USD 50 / per person"
       },
       "includesLabel": "Includes:",
       "knowMoreButton": "Learn more"
     },
     "modal": {
       "forWhoTitle": "This plan is for you if:",
-      "includesTitle": "What does this plan include?",
-      "topicsTitle": "Topics:",
-      "modalityTitle": "Modality",
-      "contactButton": "Contact"
+      "includesTitle": "What's included:",
+      "topicsTitle": "Topics covered:",
+      "modalityTitle": "Format",
+      "contactButton": "Start now",
+      "implementationNote": "The plan is implemented in phases: Branding is done once at the beginning, while social media management continues monthly. Paid ads are added once your brand identity is solid and ready to communicate.",
+      "extrasTitle": "Additional services available upon request:"
     },
     "plan1": {
-      "title": "I take care of everything",
-      "subtitle": "For when you need to delegate and know that your brand is in good hands.",
+      "title": "I handle everything",
+      "subtitle": "When you need to delegate and know your brand is in good hands.",
       "description": "This plan is for you if:",
       "forWho": {
-        "item1": "You have a brand in progress or ready to launch.",
-        "item2": "You don't have time (or desire) to handle social media, web, or communication.",
-        "item3": "You want to professionalize what you do and show it as it deserves."
+        "item1": "You have a brand that's already running or about to launch.",
+        "item2": "You don't have the time (or desire) to handle your social media, website, or communication.",
+        "item3": "You want to professionalize your brand and showcase it the way it deserves."
       },
       "includes": {
-        "item1": "Complete branding or rebranding (logo, visual identity, brand personality).",
-        "item2": "Social media management: strategy, designs, editing and scheduling posts and/or content moderation.",
-        "item3": "Social media branding: profile photo, bio description, pinned photos, highlighted stories, contact channels.",
-        "item4": "Social media advertising (Facebook Ads, Instagram Ads).",
-        "item5": "Visual content production: photo or video shoots or material selection from image banks.",
-        "item6": "Actions and exchanges with influencers.",
-        "item7": "Web design and development (institutional site or e-commerce).",
-        "item8": "Website positioning (Google Ads).",
-        "item9": "Email marketing and database creation.",
-        "item10": "Moderation and management of Google Maps reviews.",
-        "item11": "Graphic design of offline pieces and merchandising (business cards, stickers, brochures, t-shirts, tote bags, flyers, frames, plots, etc.)",
-        "item12": "Brand activations: giveaways, collaborations, events, ideas to connect with your community."
+        "item1": "Brand identity & strategy (logo, visual identity, brand personality, market research, competitor and audience analysis).",
+        "item2": "Social media setup: profile photo, bio description, pinned content, highlights, contact channels.",
+        "item3": "Social media management: strategy, design, editing, and post scheduling. Includes monthly reports.",
+        "item4": "Paid advertising on social media: strategy, publishing, tracking, and reporting. Ad spend not included."
       },
-      "modality": "Monthly management (from USD 200).",
-      "pricing": "Special services quoted separately.",
-      "extra": "It's like having your own creative director, but freelance."
+      "extras": {
+        "item1": "Visual content production (photo/video shoots or curated stock material).",
+        "item2": "Influencer collaborations & partnerships.",
+        "item3": "Web design & development (institutional or e-commerce).",
+        "item4": "Website positioning (Google Ads).",
+        "item5": "Email marketing & database creation.",
+        "item6": "Lead tracking template (CRM and strategy).",
+        "item7": "Google Maps reviews moderation & response.",
+        "item8": "Community management on social media (comments, messages, and engagement follow-up).",
+        "item9": "Offline graphic design & branded merchandise (business cards, stickers, brochures, t-shirts, tote bags, flyers, wall art, decals, etc.).",
+        "item10": "Brand activations: giveaways, collabs, events, and creative ways to connect with your community."
+      },
+      "modality": "Monthly management (from USD 250).",
+      "pricing": "Custom services quoted separately.",
+      "extra": "Focus on your business while I take care of communicating it."
     },
     "plan2": {
-      "title": "I accompany you",
-      "subtitle": "Sometimes you don't need someone else to do it, just someone to tell you where to go.",
+      "title": "I'm with you",
+      "subtitle": "Sometimes you don't need someone to do it for you—just someone to show you the way.",
       "description": "This plan is for you if:",
       "forWho": {
-        "item1": "You want to create your own content, but don't know where to start.",
-        "item2": "You feel like you're doing a lot, but without strategy.",
-        "item3": "You need a map, an external perspective, a \"this yes, this no\"."
+        "item1": "You want to create your own content but don't know where to start.",
+        "item2": "You feel like you're doing a lot, but without a clear strategy.",
+        "item3": "You need a roadmap, an outside perspective, a \"this works, this doesn't.\""
       },
       "includes": {
-        "item1": "Personalized 1:1 meetings (virtual or in-person).",
-        "item2": "Deep diagnosis of your brand and its current challenges.",
-        "item3": "Clear, creative action strategy adapted to your moment.",
-        "item4": "Delivery of PDF material with ideas, calendar, tone, tips.",
-        "item5": "Optional follow-up to see progress or adjust the plan."
+        "item1": "3 personalized 1:1 virtual sessions",
+        "item2": "In-depth brand diagnosis and current challenges",
+        "item3": "A clear, creative and customized action plan for your current stage",
+        "item4": "Follow-up and final review",
+        "item5": "PDF guide with content ideas, calendar, brand tone, and tips"
       },
-      "modality": "Pack of 2 or 3 meetings (from USD 200).",
-      "pricing": "Single sessions or monthly follow-up (from USD 80 per meeting).",
-      "extra": "Your brand can grow. I accompany you to organize it, understand it and show it with strength."
+      "modality": "Pack of 3 sessions (USD 210 total).",
+      "pricing": "Extra sessions to check progress or adjust the plan. (USD 80 each).",
+      "extra": "I'll help you understand your brand and show it with confidence."
     },
     "plan3": {
       "title": "I teach you",
-      "subtitle": "One class. One hour. Everything you need to know to start with clarity.",
+      "subtitle": "One class. One hour. Everything you need to get started with clarity.",
       "description": "This plan is for you if:",
       "forWho": {
-        "item1": "You are taking your first steps.",
-        "item2": "You want to understand how social media, branding and communication work.",
-        "item3": "You don't have budget to delegate, but you do want to train yourself."
+        "item1": "You're just getting started.",
+        "item2": "You want to understand how branding, social media, and communication really work.",
+        "item3": "You don't have the budget to outsource (yet), but you do want to learn."
       },
       "includes": {
-        "item1": "An intensive class (group or individual) of 60 to 90 minutes.",
-        "item2": "Space for questions at the end."
+        "item1": "One intensive 60-minute online class (individual or group)",
+        "item2": "Q&A session at the end"
       },
       "topics": {
-        "item1": "How to communicate your brand.",
-        "item2": "Social media strategy.",
-        "item3": "What is branding and why it matters.",
-        "item4": "Trends, frequency, connection with your audience.",
-        "item5": "How to advertise, when to sell, how to build loyalty.",
-        "item6": "Free tools and resources."
+        "item1": "How to communicate your brand",
+        "item2": "Social media strategy",
+        "item3": "What branding is and why it matters",
+        "item4": "Trends, posting frequency, and audience connection",
+        "item5": "When to run ads, when to sell, and how to build loyalty",
+        "item6": "Free tools and useful resources"
       },
-      "modality": "Group class: from USD 50 per person.",
-      "pricing": "Individual class: from USD 100.",
-      "extra": "You don't need to know everything. But you do need to understand the basics so your communication doesn't work against you."
+      "modality": "Individual or group online class — USD 50 per person.",
+      "pricing": "Discounts available for group bookings or multiple sessions.",
+      "extra": "You don't need to know everything — just the essentials to make your brand communication work for you."
     },
     "cta": {
       "question": "Don't know which one to choose?",

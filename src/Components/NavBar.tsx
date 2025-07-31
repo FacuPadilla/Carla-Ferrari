@@ -87,7 +87,7 @@ const Navbar: React.FC = () => {
               ES
             </button>
             <a href="mailto:info@carlaferrari.net">
-              <button className="bg-[#f8c761]  hover:bg-[#f8c761]/90 w-48 h-12 text-center text-black font-bold">
+              <button className="bg-[#b1757c] hover:bg-[#9d6169] w-48 h-12 text-center text-white font-chocobold rounded">
                 {t("carousel.slide1.button")}
               </button>
             </a>

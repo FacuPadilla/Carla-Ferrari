@@ -18,7 +18,7 @@ const PlanCard = ({
   planNumber,
   title,
   subtitle,
-
+  description,
   forWho,
   includes,
   topics,
@@ -49,7 +49,7 @@ const PlanCard = ({
         <div>
           <div className="flex items-center justify-center mb-4">
             <span className="text-4xl">
-              {planNumber === "1" ? "🧾" : planNumber === "2" ? "📦" : "👩‍🏫"}
+              {planNumber === "1" ? "🙌" : planNumber === "2" ? "🤎" : "👩‍🏫"}
             </span>
           </div>
           <h2 className="text-xl font-chocobold text-[#b1757c] mb-2 text-center">
@@ -150,6 +150,34 @@ const PlanCard = ({
                 </ul>
               </div>
 
+              {/* Nota de implementación (solo Plan 1) */}
+              {planNumber === "1" && (
+                <div className="mb-6 p-4 bg-gray-50 rounded-lg">
+                  <p className="font-chocoreg text-sm text-gray-600 italic">
+                    {t("plans.modal.implementationNote")}
+                  </p>
+                </div>
+              )}
+
+              {/* Extras (solo Plan 1) */}
+              {planNumber === "1" && (
+                <div className="mb-6">
+                  <h3 className="font-chocobold text-lg mb-3">
+                    {t("plans.modal.extrasTitle")}
+                  </h3>
+                  <ul className="space-y-2">
+                    {Object.values(
+                      t("plans.plan1.extras", { returnObjects: true }) || {}
+                    ).map((extra: string, index: number) => (
+                      <li key={index} className="flex items-start">
+                        <span className="text-[#b1757c] mr-2">•</span>
+                        <span className="font-chocoreg text-sm">{extra}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
               {/* Temas (solo para plan 3) */}
               {topics && (
                 <div className="mb-6">
@@ -172,9 +200,9 @@ const PlanCard = ({
                 <div className="flex items-center mb-2">
                   <span className="text-xl mr-2">
                     {planNumber === "1"
-                      ? "🧾"
+                      ? "🙌"
                       : planNumber === "2"
-                      ? "📦"
+                      ? "🤎"
                       : "👩‍🏫"}
                   </span>
                   <h3 className="font-chocobold text-lg">
@@ -196,7 +224,7 @@ const PlanCard = ({
               {/* Botón de contacto */}
               <div className="text-center">
                 <a href="mailto:info@carlaferrari.net">
-                  <button className="bg-black hover:bg-black/80 transition-all text-white font-chocobold py-3 px-8 rounded">
+                  <button className="bg-[#b1757c] hover:bg-[#9d6169] transition-all text-white font-chocobold py-3 px-8 rounded">
                     {t("plans.modal.contactButton")}
                   </button>
                 </a>

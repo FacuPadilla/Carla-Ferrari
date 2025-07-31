@@ -56,14 +56,6 @@ const Plans = () => {
                 t("plans.plan1.includes.item2"),
                 t("plans.plan1.includes.item3"),
                 t("plans.plan1.includes.item4"),
-                t("plans.plan1.includes.item5"),
-                t("plans.plan1.includes.item6"),
-                t("plans.plan1.includes.item7"),
-                t("plans.plan1.includes.item8"),
-                t("plans.plan1.includes.item9"),
-                t("plans.plan1.includes.item10"),
-                t("plans.plan1.includes.item11"),
-                t("plans.plan1.includes.item12"),
               ]}
               modality={t("plans.plan1.modality")}
               pricing={t("plans.plan1.pricing")}
@@ -135,7 +127,7 @@ const Plans = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="bg-black hover:bg-black/80 transition-all transform text-white w-48 h-12"
+            className="bg-[#b1757c] hover:bg-[#9d6169] font-chocobold transition-all transform text-white w-48 h-12"
           >
             {t("plans.cta.button")}
           </motion.button>

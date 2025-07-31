@@ -28,11 +28,12 @@
     }
   },
   "about": {
-    "title1": "Si buscas experiencia y conocimiento, estás en el lugar indicado.",
-    "content1": "Con más de 10 años de experiencia en mercado, he trabajado en agencias de publicidad y empresas para diversas marcas y rubros. Originaria de Argentina, he realizado trabajos para LATAM, España, Irlanda y Australia, entre otros. ",
-    "content2": "Con un equipo especializado de profesionales alrededor del mundo, cada proyecto fue un nuevo desafío para armar un grupo de trabajo y adaptarse a las necesidades de cada cliente.",
-    "content3": "Desde emprendimientos a grandes empresas, hacer crecer cada negocio de forma eficiente, posicionar la marca y fidelizar clientes han sido los principales objetivos.",
-    "content4": "Soy una profesional apasionada y detallista que le da un valor agregado a cada proyecto. ¿Empezamos?",
+    "info": "ACERCA DE MI |",
+    "title1": "Tu proyecto, con guía y estrategia.",
+    "content1": "Con más de 10 años de experiencia, ayudé a mujeres de distintos países a dar vida y forma a sus marcas. ",
+    "content2": "Desde Argentina al mundo, trabajé en LATAM, España, Irlanda y Australia, siempre adaptando cada proyecto a las necesidades reales de quienes lo lideran.",
+    "content3": "Formo equipos a medida, acompaño cada paso del proceso y pongo foco en lo que importa: crecer con estrategia, posicionar con propósito y fidelizar con autenticidad.",
+    "content4": "Si tenés una idea, un emprendimiento o una marca que querés llevar más lejos, te acompaño en el camino. ¿Empezamos?",
     "button": "Más de mí "
   },
   "services": {
@@ -116,9 +117,17 @@
     }
   },
   "book": {
-    "title": "Destrucción es ",
-    "title1": "una forma de creación ",
-    "content": "Conseguí tu libro físico o para e-book en Amazon.com "
+    "sectionTitle": "LIBRO |",
+    "title": "Destrucción es",
+    "title1": "una forma de creación",
+    "description": "Publicado en 2025, Destrucción es una forma de creación es un proyecto literario independiente que impulsé y desarrollé junto a un equipo de talentosas mujeres.",
+    "origin": "Luego de una crisis profesional y personal, nació esta forma de enfocarme en un proyecto para salir a flote.",
+    "about": "Destrucción es una forma de creación trata de una recopilación de ocho cuentos de realismo fantástico que comenzó a gestarse en 2018 y que, tras un intenso proceso de trabajo, vió la luz.",
+    "reach": "El libro ya llegó a lectores en más de cinco países y está disponible online.",
+    "cta": "Conseguí tu libro físico o para e-book en Amazon.com",
+    "amazonLink": "https://www.amazon.com/dp/B0DYMLJYTL?ref=cm_sw_r_ffobk_cso_cp_mwn_dp_KQGEYW443WWQ8Z7CY0B3&ref_=cm_sw_r_ffobk_cso_cp_mwn_dp_KQGEYW443WWQ8Z7CY0B3&social_share=cm_sw_r_ffobk_cso_cp_mwn_dp_KQGEYW443WWQ8Z7CY0B3&bestFormat=true",
+    "buttonText": "Comprar en Amazon",
+    "note": "Disponible solo en Español."
   },
   "contact": {
     "boton": "Contactar ",
@@ -142,36 +151,39 @@
       "title": "Comunicación para marcas que nacen, se transforman o crecen.",
       "subtitle": "Conocé todos nuestros planes para tu negocio según tu inversión, tus recursos y tu energía."
     },
+    "sectionTitle": "PLANES |",
     "cards": {
       "plan1": {
-        "shortDescription": "Gestión completa de tu marca y comunicación digital.",
+        "shortDescription": "Gestión integral de tu marca y comunicación digital.",
         "features": [
-          "Branding completo",
+          "Identidad y estrategia de marca",
+          "Seteo de redes sociales",
           "Gestión de redes sociales",
-          "Desarrollo web",
-          "Email marketing"
+          "Pauta en redes sociales",
+          "+ Extras disponibles a cotizar"
         ],
-        "price": "Desde USD 200/mes"
+        "price": "💰 Desde USD 250/mes"
       },
       "plan2": {
-        "shortDescription": "Asesoramiento estratégico personalizado 1:1.",
+        "shortDescription": "Asesoramiento estratégico en 3 sesiones online 1:1.",
         "features": [
-          "Reuniones 1:1",
           "Diagnóstico de marca",
-          "Estrategia personalizada",
-          "Material PDF"
+          "Estrategia de comunicación personalizada",
+          "Seguimiento y cierre",
+          "Material de apoyo en PDF",
+          "+ Posibilidad de sesiones extras"
         ],
-        "price": "Desde USD 80/sesión"
+        "price": "💰 USD 210/ 3 sesiones"
       },
       "plan3": {
         "shortDescription": "Clase intensiva sobre branding y redes sociales.",
         "features": [
-          "Clase 60-90 min",
+          "Clase 60 min online (individual o grupal)",
           "Estrategia de redes",
           "Branding básico",
-          "Sesión de preguntas"
+          "Espacio para preguntas"
         ],
-        "price": "Desde USD 50/persona"
+        "price": "💰 USD 50/persona"
       },
       "includesLabel": "Incluye:",
       "knowMoreButton": "Conocer más"
@@ -181,7 +193,9 @@
       "includesTitle": "¿Qué incluye este plan?",
       "topicsTitle": "Temas:",
       "modalityTitle": "Modalidad",
-      "contactButton": "Contactar"
+      "contactButton": "Empezar ahora",
+      "implementationNote": "El plan se implementa por fases, el branding solo se realiza una vez al inicio y la gestión de redes continúa mes a mes, agregándose la pauta cuando la identidad de marca está definida y lista para comunicar.",
+      "extrasTitle": "Extras a cotizar:"
     },
     "plan1": {
       "title": "Me ocupo de todo",
@@ -193,22 +207,26 @@
         "item3": "Querés profesionalizar lo que hacés y mostrarlo como se merece."
       },
       "includes": {
-        "item1": "Branding completo o rebranding de marca (logo, identidad visual, personalidad de marca).",
-        "item2": "Gestión de redes sociales: estrategia, diseños, edición y programación de posteos y/o moderación de contenidos.",
-        "item3": "Branding en redes sociales: foto de perfil, descripción de bio, fotos ancladas, stories destacadas, canales de contacto.",
-        "item4": "Pauta ($) en redes sociales (Facebook Ads, Instagram Ads).",
-        "item5": "Producción de contenido visual: foto o video shootings o selección de material en bancos de imágenes.",
-        "item6": "Acciones y canjes con influencers.",
-        "item7": "Diseño y desarrollo web (sitio institucional o e-commerce).",
-        "item8": "Posicionamiento de página web (Google Ads).",
-        "item9": "Email marketing y creación de base de datos.",
-        "item10": "Moderación y gestión de reviews en Google maps.",
-        "item11": "Diseño gráfico de piezas off-line y merchandising (tarjetas personales, stickers, folletería, remeras, tote bags, flyers, cuadros, ploteos, etc.)",
-        "item12": "Activaciones de marca: sorteos, colaboraciones, eventos, ideas para conectar con tu comunidad."
+        "item1": "Identidad y estrategia de marca (logo, identidad visual, personalidad de marca, investigación de mercado, análisis competencia y público objetivo).",
+        "item2": "Seteo de redes sociales: foto de perfil, descripción de bio, fotos ancladas, stories destacadas, canales de contacto.",
+        "item3": "Gestión de redes sociales (estrategia, diseño, edición y programación de posteos). Incluye reporte mensual.",
+        "item4": "Pauta publicitaria en redes sociales (estrategia, publicación, seguimiento y reportes de pauta). No incluye el monto a invertir."
       },
-      "modality": "Gestión mensual (desde USD 200).",
+      "extras": {
+        "item1": "Producción de contenido visual: foto o video shootings o selección de material en bancos de imágenes.",
+        "item2": "Acciones y canjes con influencers.",
+        "item3": "Diseño y desarrollo web (sitio institucional o e-commerce).",
+        "item4": "Posicionamiento de página web (Google Ads).",
+        "item5": "Email marketing y creación de base de datos.",
+        "item6": "Plantilla de seguimiento de leads (potenciales clientes, seguimiento y estrategia de impacto).",
+        "item7": "Moderación y gestión de reviews en Google maps.",
+        "item8": "Moderación de contenido en redes sociales (responder respuestas y hacer un seguimiento)",
+        "item9": "Diseño gráfico de piezas off-line y merchandising (tarjetas personales, stickers, folletería, remeras, tote bags, flyers, cuadros, ploteos, etc.)",
+        "item10": "Activaciones de marca: sorteos, colaboraciones, eventos, ideas para conectar con tu comunidad."
+      },
+      "modality": "Gestión mensual (desde USD 250).",
       "pricing": "Servicios especiales cotizados por separado.",
-      "extra": "Es como tener tu propia directora creativa, pero freelance."
+      "extra": "Enfocate en tu negocio, mientras me encargo de comunicarlo."
     },
     "plan2": {
       "title": "Te Acompaño",
@@ -220,15 +238,15 @@
         "item3": "Necesitás un mapa, una mirada externa, un \"esto sí, esto no\"."
       },
       "includes": {
-        "item1": "Reuniones personalizadas 1:1 (virtuales o presenciales).",
+        "item1": "3 reuniones personalizadas 1:1 (virtuales).",
         "item2": "Diagnóstico profundo de tu marca y sus desafíos actuales.",
         "item3": "Estrategia de acción clara, creativa y adaptada a tu momento.",
-        "item4": "Entrega de material PDF con ideas, calendario, tono, tips.",
-        "item5": "Seguimiento opcional para ver avances o ajustar el plan."
+        "item4": "Seguimiento y cierre.",
+        "item5": "Entrega de material PDF con ideas, calendario, tono, tips."
       },
-      "modality": "Pack de 2 o 3 reuniones (desde USD 200).",
-      "pricing": "Sesiones sueltas o seguimiento mensual (desde USD 80 por encuentro).",
-      "extra": "Tu marca puede crecer. Yo te acompaño a ordenarla, entenderla y mostrarla con fuerza."
+      "modality": "Pack de 3 reuniones (USD 210 total).",
+      "pricing": "Sesiones extras para ver avances o ajustar el plan. (USD 80 por encuentro).",
+      "extra": "Te acompaño entender tu marca y mostrarla con fuerza."
     },
     "plan3": {
       "title": "Te enseño",
@@ -240,7 +258,7 @@
         "item3": "No tenés presupuesto para delegar, pero sí querés formarte."
       },
       "includes": {
-        "item1": "Una clase intensiva (grupal o individual) de 60 a 90 minutos.",
+        "item1": "Una clase intensiva online de 60 minutos (grupal o individual)",
         "item2": "Espacio para preguntas al final."
       },
       "topics": {
@@ -251,9 +269,9 @@
         "item5": "Cómo pautar, cuándo vender, cómo fidelizar.",
         "item6": "Herramientas y recursos gratuitos."
       },
-      "modality": "Clase grupal: desde USD 50 por persona.",
-      "pricing": "Clase individual: desde USD 100.",
-      "extra": "No necesitás saberlo todo. Pero sí entender lo básico para que tu comunicación no juegue en tu contra."
+      "modality": "Clase individual o grupal online de 60 min (USD 50 por persona).",
+      "pricing": "Descuento por más clases o venir en grupo.",
+      "extra": "No necesitás saberlo todo. Pero sí entender lo básico para que la comunicación de tu marca juegue a tu favor."
     },
     "cta": {
       "question": "¿No sabés cuál elegir?",

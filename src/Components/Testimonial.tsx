@@ -135,13 +135,13 @@ const Testimonial = () => {
         <TestiCard
           title={t("testimonials.testimonial1.name")}
           img="/testimonio1.jpeg"
-          subtitle={t("testimonials.testimonial1.position")}
+          subtitle={t("testimonials.testimonial2.position")}
           text={t("testimonials.testimonial1.content")}
         />
         <TestiCard
           title={t("testimonials.testimonial2.name")}
           img="/testimonio2.jpg"
-          subtitle={t("testimonials.testimonial2.position")}
+          subtitle={t("testimonials.testimonial1.position")}
           text={t("testimonials.testimonial2.content")}
         />
         <TestiCard
