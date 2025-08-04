@@ -93,12 +93,12 @@
     "title": "Business growing, happy customers.",
     "subtitle": "Meet some of our partners.",
     "testimonial1": {
-      "name": "Ana",
+      "name": "Lucía",
       "position": "Marketing Manager | WeWork",
       "content": "It was a pleasure work with Carli. Besides being a great person, she is a great professional. She carried out each challenge with dedication and responsibility, always attentive to the smallest detail. I highlight her creativity and positive energy for work. Her contributions were always accurate and were key to the success of many advertising campaigns."
     },
     "testimonial2": {
-      "name": "Lucía",
+      "name": "Ana",
       "position": "Account supervisor | The community",
       "content": "Working with Carli is a great pleasure. She is a highly creative person who approaches projects with the best attitude, understanding and resolving the client's requests and needs. On a personal level, she is always willing to help and brings the best energy."
     },
@@ -122,7 +122,7 @@
     "about": "The book is a collection of eight magical realism short stories, which began taking shape in 2018 and, after an intense process, was finally published.",
     "reach": "Today, the book has reached readers in over five countries and is available online.",
     "cta": "Get your physical or e-book copy on Amazon.com",
-    "note": "Available only in Spanish",
+    "note": "📚 Available only in Spanish",
     "amazonLink": "https://www.amazon.com/dp/B0DYMLJYTL?ref=cm_sw_r_ffobk_cso_cp_mwn_dp_KQGEYW443WWQ8Z7CY0B3&ref_=cm_sw_r_ffobk_cso_cp_mwn_dp_KQGEYW443WWQ8Z7CY0B3&social_share=cm_sw_r_ffobk_cso_cp_mwn_dp_KQGEYW443WWQ8Z7CY0B3&bestFormat=true",
     "buttonText": "Buy on Amazon"
   },
@@ -157,7 +157,7 @@
           "Social media setup and optimization",
           "Monthly social media management",
           "Paid social advertising (Meta Ads)",
-          "+ Extra services available upon request"
+          "➕ Extra services available upon request"
         ],
         "price": "💰 Starting at USD 250/month"
       },
@@ -168,7 +168,7 @@
           "Personalized communication strategy",
           "Follow-up and final review",
           "PDF support material",
-          "+ Option to book additional sessions"
+          "➕ Option to book additional sessions"
         ],
         "price": "💰 USD 210 / 3 sessions"
       },
@@ -186,13 +186,13 @@
       "knowMoreButton": "Learn more"
     },
     "modal": {
-      "forWhoTitle": "This plan is for you if:",
-      "includesTitle": "What's included:",
+      "forWhoTitle": "✅ This plan is for you if:",
+      "includesTitle": "📦 What's included:",
       "topicsTitle": "Topics covered:",
-      "modalityTitle": "Format",
+      "modalityTitle": "How it works",
       "contactButton": "Start now",
       "implementationNote": "The plan is implemented in phases: Branding is done once at the beginning, while social media management continues monthly. Paid ads are added once your brand identity is solid and ready to communicate.",
-      "extrasTitle": "Additional services available upon request:"
+      "extrasTitle": "💡 Additional services available upon request:"
     },
     "plan1": {
       "title": "I handle everything",

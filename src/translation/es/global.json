@@ -96,12 +96,12 @@
     "title": "Negocios creciendo, clientes felices.",
     "subtitle": "Conocé a algunos de nuestros partners.",
     "testimonial1": {
-      "name": "Ana",
+      "name": "Lucía",
       "position": "Directora de cuentas | WeWork",
       "content": "Fue un placer trabajar con Carli. Además de una gran persona, es una gran profesional. Llevó adelante cada desafío con dedicación y responsabilidad, siempre atenta al más mínimo detalle. Destaco su creatividad y energía positiva para trabajar. Sus aportes eran siempre acertados y fueron claves para el éxito de muchas campañas publicitarias."
     },
     "testimonial2": {
-      "name": "Lucía",
+      "name": "Ana",
       "position": "Gerenta de Marketing  | The community",
       "content": "Trabajar con Carli es un gusto enorme. Es una persona sumamente creativa y encara los proyectos con la mejor predisposición, entendiendo y resolviendo los pedidos y necesidades del cliente. A nivel personal siempre está dispuesta a ayudar y trasmite la mejor energía."
     },
@@ -160,7 +160,7 @@
           "Seteo de redes sociales",
           "Gestión de redes sociales",
           "Pauta en redes sociales",
-          "+ Extras disponibles a cotizar"
+          "➕  Extras disponibles a cotizar"
         ],
         "price": "💰 Desde USD 250/mes"
       },
@@ -171,7 +171,7 @@
           "Estrategia de comunicación personalizada",
           "Seguimiento y cierre",
           "Material de apoyo en PDF",
-          "+ Posibilidad de sesiones extras"
+          "➕  Posibilidad de sesiones extras"
         ],
         "price": "💰 USD 210/ 3 sesiones"
       },
@@ -189,8 +189,8 @@
       "knowMoreButton": "Conocer más"
     },
     "modal": {
-      "forWhoTitle": "Este plan es para vos si:",
-      "includesTitle": "¿Qué incluye este plan?",
+      "forWhoTitle": "✅ Este plan es para vos si:",
+      "includesTitle": "📦 ¿Qué incluye este plan?",
       "topicsTitle": "Temas:",
       "modalityTitle": "Modalidad",
       "contactButton": "Empezar ahora",

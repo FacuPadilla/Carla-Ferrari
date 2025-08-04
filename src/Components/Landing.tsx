@@ -56,7 +56,7 @@ const Landing = () => {
           {t("carousel.slide1.subtitle")}
         </motion.p>
         <a href="mailto:info@carlaferrari.net" className="md:hidden">
-          <button className="bg-[#f8c761] mt-10 hover:bg-[#f8c761]/90  w-56 h-12 text-center text-black font-bold">
+          <button className="bg-[#b1757c] hover:bg-[#9d6169]  w-56 h-12 text-center text-white font-chocobold rounded font-bold">
             {t("carousel.slide1.button")}
           </button>
         </a>

@@ -57,20 +57,20 @@ const PlanCard = ({
           <h3 className="text-lg font-chocobold text-gray-800 mb-2 text-center">
             "{title}"
           </h3>
-          <p className="text-gray-600 font-chocoreg text-sm mb-4 text-center">
+          <p className="text-gray-600 font-chocoreg text-md mb-4 text-center">
             {t(`plans.cards.plan${planNumber}.shortDescription`)}
           </p>
 
           {/* Características principales */}
           <div className="mb-6">
-            <h4 className="font-chocobold text-sm mb-3 text-gray-700">
+            <h4 className="font-chocobold text-md mb-3 text-gray-700">
               {t("plans.cards.includesLabel")}
             </h4>
             <ul className="space-y-1">
               {getFeatures().map((feature: string, index: number) => (
                 <li key={index} className="flex items-start">
-                  <span className="text-[#b1757c] mr-2 text-xs">•</span>
-                  <span className="font-chocoreg text-xs text-gray-600">
+                  <span className="text-[#b1757c] mr-2 text-sm">•</span>
+                  <span className="font-chocoreg text-sm text-gray-600">
                     {feature}
                   </span>
                 </li>
