@@ -127,7 +127,7 @@ const Plans = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
-            className="bg-[#b1757c] hover:bg-[#9d6169] font-chocobold transition-all transform text-white w-48 h-12"
+            className="bg-[#b1757c] hover:bg-[#9d6169] rounded font-chocobold transition-all transform text-white w-48 h-12"
           >
             {t("plans.cta.button")}
           </motion.button>
