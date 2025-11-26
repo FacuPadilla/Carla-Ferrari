@@ -54,9 +54,7 @@ const PlanCard = ({
           <h2 className="text-xl font-chocobold text-[#b1757c] mb-2 text-center">
             PLAN {planNumber}
           </h2>
-          <h3 className="text-lg font-chocobold text-gray-800 mb-2 text-center">
-            "{title}"
-          </h3>
+
           <p className="text-gray-600 font-chocoreg text-md mb-4 text-center">
             {t(`plans.cards.plan${planNumber}.shortDescription`)}
           </p>

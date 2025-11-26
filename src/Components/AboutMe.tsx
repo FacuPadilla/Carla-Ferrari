@@ -29,7 +29,7 @@ const AboutMe = () => {
 
           {/* Pequeño texto arriba del título - versión mobile */}
           <p className="font-chocobold text-sm tracking-wider uppercase mb-4 md:hidden">
-            ACERCA DE MI |
+            Nosotros |
           </p>
 
           <h1

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   const [t] = useTranslation("global");
+  const whatsappUrl = `https://wa.me/5491138201129`;
   return (
     <div id="contact">
       {/* Imagen sin texto superpuesto */}
@@ -29,7 +30,7 @@ const Contact = () => {
           <p className="mt-5 md:text-2xl text-lg text-gray-700 font-chocoreg mb-8">
             {t("contact.call_to_action")}
           </p>
-          <a href="mailto:info@carlaferrari.net">
+          <a href={whatsappUrl}>
             <motion.button
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}

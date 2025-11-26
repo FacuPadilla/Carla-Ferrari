@@ -1,7 +1,7 @@
 {
   "navbar": {
     "home": "Inicio",
-    "about": "Acerca de mí",
+    "about": "Nosotros",
     "services": "Servicios",
     "portfolio": "Casos de éxito ",
     "testimonials": "Testimonios",
@@ -11,7 +11,7 @@
   },
   "carousel": {
     "slide1": {
-      "title": "Hago crecer proyectos de mujeres.",
+      "title": "Hacemos crecer proyectos de mujeres.",
       "title1": "Hago crecer proyectos ",
       "title2": "de mujeres.",
 
@@ -19,16 +19,16 @@
       "button": "Agendá una reunión "
     },
     "slide2": {
-      "title": "Hago crecer proyectos de mujeres.",
+      "title": "Hacemos crecer proyectos de mujeres.",
       "subtitle": "Llevá tu negocio al siguiente nivel."
     },
     "slide3": {
-      "title": "Hago crecer proyectos de mujeres.",
+      "title": "Hacemos crecer proyectos de mujeres.",
       "subtitle": "Llevá tu negocio al siguiente nivel."
     }
   },
   "about": {
-    "info": "ACERCA DE MI |",
+    "info": "Nosotros |",
     "title1": "Tu proyecto, con guía y estrategia.",
     "content1": "Con más de 10 años de experiencia, ayudé a mujeres de distintos países a dar vida y forma a sus marcas. ",
     "content2": "Desde Argentina al mundo, trabajé en LATAM, España, Irlanda y Australia, siempre adaptando cada proyecto a las necesidades reales de quienes lo lideran.",
@@ -134,7 +134,7 @@
     "title": "Contacto",
     "intro": "Un producto bien comunicado",
     "intro1": "es una nueva venta.",
-    "call_to_action": "Contactame hoy y agendemos una reunión.",
+    "call_to_action": "Contactanos hoy y agendemos una reunión",
     "email": "carferrari94@gmail.com",
     "phone": "0400738349",
     "linkedin": "LinkedIn",
@@ -142,8 +142,8 @@
     "behance": "Behance"
   },
   "footer": {
-    "copy1": "© 2024 ",
-    "copy2": "Carla Ferrari. ",
+    "copy1": "© 2026 ",
+    "copy2": "Communication Co. ",
     "copy3": "Todos los derechos reservados."
   },
   "plans": {
@@ -159,7 +159,6 @@
           "Identidad y estrategia de marca",
           "Seteo de redes sociales",
           "Gestión de redes sociales",
-          "Pauta en redes sociales",
           "➕  Extras disponibles a cotizar"
         ],
         "price": "💰 Desde USD 250/mes"
@@ -209,8 +208,7 @@
       "includes": {
         "item1": "Identidad y estrategia de marca (logo, identidad visual, personalidad de marca, investigación de mercado, análisis competencia y público objetivo).",
         "item2": "Seteo de redes sociales: foto de perfil, descripción de bio, fotos ancladas, stories destacadas, canales de contacto.",
-        "item3": "Gestión de redes sociales (estrategia, diseño, edición y programación de posteos). Incluye reporte mensual.",
-        "item4": "Pauta publicitaria en redes sociales (estrategia, publicación, seguimiento y reportes de pauta). No incluye el monto a invertir."
+        "item3": "Gestión de redes sociales (estrategia, diseño, edición y programación de posteos). Incluye reporte mensual."
       },
       "extras": {
         "item1": "Producción de contenido visual: foto o video shootings o selección de material en bancos de imágenes.",
@@ -275,7 +273,7 @@
     },
     "cta": {
       "question": "¿No sabés cuál elegir?",
-      "answer": "No pasa nada. Escribime, contame en qué estás, y armamos juntas la mejor opción para vos.",
+      "answer": "Contanos acerca de tu proyecto y armamos juntos la mejor opción para vos.",
       "button": "Empezar ahora"
     }
   }

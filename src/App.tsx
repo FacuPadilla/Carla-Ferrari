@@ -7,12 +7,13 @@ import Footer from "./Components/Footer";
 import Landing from "./Components/Landing";
 import Plans from "./Components/Plans";
 import Testimonial from "./Components/Testimonial";
+import WhatsAppButton from "./Components/WhatsAppButton";
 
 function App() {
   return (
     <div className="w-screen relative h-screen overflow-x-hidden   font-chocoreg">
       <Landing />
-
+      <WhatsAppButton />
       <AboutMe />
       <Plans />
       <CasosDeExito />

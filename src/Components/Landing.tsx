@@ -55,7 +55,7 @@ const Landing = () => {
         <motion.p className="font-chocoreg text-lg md:text-4xl text-center bg-clip-text text-white py-4 px-5">
           {t("carousel.slide1.subtitle")}
         </motion.p>
-        <a href="mailto:info@carlaferrari.net" className="md:hidden">
+        <a href="https://wa.me/5491138201129" className="md:hidden">
           <button className="bg-[#b1757c] hover:bg-[#9d6169]  w-56 h-12 text-center text-white font-chocobold rounded font-bold">
             {t("carousel.slide1.button")}
           </button>

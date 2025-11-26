@@ -55,7 +55,6 @@ const Plans = () => {
                 t("plans.plan1.includes.item1"),
                 t("plans.plan1.includes.item2"),
                 t("plans.plan1.includes.item3"),
-                t("plans.plan1.includes.item4"),
               ]}
               modality={t("plans.plan1.modality")}
               pricing={t("plans.plan1.pricing")}
