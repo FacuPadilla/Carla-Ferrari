@@ -141,6 +141,12 @@
     "instagram": "Instagram",
     "behance": "Behance"
   },
+  "workWithUs": {
+    "title": "Trabaja con nosotros",
+    "content1": "En Communication Co seguimos creciendo y queremos sumar personas creativas, proactivas y comprometidas. Creemos en los equipos armados a medida: cada proyecto necesita miradas distintas, y la tuya puede ser una de ellas.",
+    "content2": "Si sentís que tu talento puede sumar y querés ser parte de un espacio dinámico, envianos tu perfil. ¡Queremos conocerte!",
+    "button": "Enviar CV"
+  },
   "footer": {
     "copy1": "© 2026 ",
     "copy2": "Communication Co. ",

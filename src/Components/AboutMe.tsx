@@ -41,7 +41,7 @@ const AboutMe = () => {
 
           <div className="md:col-span-1 py-10 md:hidden ">
             <img
-              src="about.jpg"
+              src="/about.jpg"
               alt=""
               className="w-full md:h-[550px] h-[450px]  object-cover"
             />
@@ -79,7 +79,7 @@ const AboutMe = () => {
 
         <div className="md:col-span-1 my-5 hidden md:block">
           <img
-            src="about.jpg"
+            src="/about.jpg"
             alt=""
             className="w-full md:h-[700px] h-[350px] p-10  object-cover"
           />

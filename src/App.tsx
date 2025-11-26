@@ -7,6 +7,7 @@ import Footer from "./Components/Footer";
 import Landing from "./Components/Landing";
 import Plans from "./Components/Plans";
 import Testimonial from "./Components/Testimonial";
+import TrabajaConNosotros from "./Components/TrabajaConNosotros";
 import WhatsAppButton from "./Components/WhatsAppButton";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <CasosDeExito />
       <Book />
       <Testimonial />
+      <TrabajaConNosotros />
       <Contact />
       <Footer />
     </div>
