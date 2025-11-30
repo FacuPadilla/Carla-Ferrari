@@ -7,12 +7,13 @@
     "testimonials": "Testimonios",
     "book": "Libro",
     "contact": "Contacto",
-    "plans": "Planes"
+    "plans": "Planes",
+    "trabaja": "Trabaja con nosotros"
   },
   "carousel": {
     "slide1": {
       "title": "Hacemos crecer proyectos de mujeres.",
-      "title1": "Hago crecer proyectos ",
+      "title1": "Hacemos crecer proyectos ",
       "title2": "de mujeres.",
 
       "subtitle": "Llevá tu negocio al siguiente nivel.",
@@ -33,7 +34,7 @@
     "content1": "Con más de 10 años de experiencia, ayudé a mujeres de distintos países a dar vida y forma a sus marcas. ",
     "content2": "Desde Argentina al mundo, trabajé en LATAM, España, Irlanda y Australia, siempre adaptando cada proyecto a las necesidades reales de quienes lo lideran.",
     "content3": "Formo equipos a medida, acompaño cada paso del proceso y pongo foco en lo que importa: crecer con estrategia, posicionar con propósito y fidelizar con autenticidad.",
-    "content4": "Si tenés una idea, un emprendimiento o una marca que querés llevar más lejos, te acompaño en el camino. ¿Empezamos?",
+    "content4": "Si tenés una idea, un emprendimiento o una marca que querés llevar más lejos, te acompañamos en el camino. ¿Empezamos?",
     "button": "Más de mí "
   },
   "services": {
@@ -162,10 +163,11 @@
       "plan1": {
         "shortDescription": "Gestión integral de tu marca y comunicación digital.",
         "features": [
-          "Identidad y estrategia de marca",
-          "Seteo de redes sociales",
-          "Gestión de redes sociales",
-          "➕  Extras disponibles a cotizar"
+          "Branding",
+          "Investigación de mercado ",
+          "Estrategia de comunicación y mktg",
+          " Set up de RRSS",
+          "Contenido en RRSS"
         ],
         "price": "💰 Desde USD 250/mes"
       },

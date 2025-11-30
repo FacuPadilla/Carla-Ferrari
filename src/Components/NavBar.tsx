@@ -124,6 +124,11 @@ const Navbar: React.FC = () => {
               </a>
             </div>
             <div>
+              <a href="#trabaja-con-nosotros" onClick={handleMenuToggle}>
+                {t("navbar.trabaja")}
+              </a>
+            </div>
+            <div>
               <a href="#contact" onClick={handleMenuToggle}>
                 <button className="bg-black hover:bg-black/80 transition-all transform  text-white   w-52 h-12">
                   {t("navbar.contact")}

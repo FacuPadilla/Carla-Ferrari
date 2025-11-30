@@ -116,7 +116,7 @@ const Plans = () => {
       </div>
 
       {/* Call to action */}
-      <div className="text-center py-12">
+      <div className="text-center p-12">
         <h3 className="text-2xl font-chocobold mb-4">
           {t("plans.cta.question")}
         </h3>

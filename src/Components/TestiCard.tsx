@@ -20,8 +20,8 @@ export const TestiCard = ({
             <h1 className="font-bold text-lg">{title}</h1>
             <h2 className="text-xs">{subtitle}</h2>
           </div>
-          <div className="w-full">
-            <img src={img} alt="" className="w-full md:h-[350px] px-10 " />
+          <div className="w-full flex justify-center items-center">
+            <img src={img} alt="" className="w-auto md:h-[350px] px-10 " />
           </div>
 
           <p className=" py-5 md:py-10 md:px-5 px-10 text-center text-sm md:text-normal">
