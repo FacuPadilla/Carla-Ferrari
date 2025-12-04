@@ -24,7 +24,7 @@ const Footer = () => {
                   Ad & marketing specialist
                 </span>
               </span> */}
-              <img src="/logofinal.jpg" alt="" className="md:h-48 h-40" />
+              <img src="/logoccColor.png" alt="" className="md:h-48 h-40" />
             </a>
             <ul className="flex flex-wrap  mb-6 text-sm   sm:mb-0 ">
               <li>
