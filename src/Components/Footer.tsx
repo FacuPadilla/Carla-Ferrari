@@ -53,7 +53,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="mailto:info@carlaferrari.net"
+                  href="mailto:info@communicationco.net"
                   className="me-8 md:me-10"
                 >
                   <IoMdMail className="w-6 h-6" />

@@ -220,7 +220,7 @@ const PlanCard = ({
 
               {/* Botón de contacto */}
               <div className="text-center">
-                <a href="mailto:info@carlaferrari.net">
+                <a href="mailto:info@communicationco.net">
                   <button className="bg-[#b1757c] hover:bg-[#9d6169] transition-all text-white font-chocobold py-3 px-8 rounded">
                     {t("plans.modal.contactButton")}
                   </button>

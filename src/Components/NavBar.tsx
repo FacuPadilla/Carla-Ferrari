@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
             src={`${
               openMenu ? "/logoccompletoColor.png" : "/locoCCompletoBlanco.png"
             }`}
-            className="h-80  lg:h-[27rem] w-auto object-contain "
+            className="h-80  lg:h-[28rem] w-auto object-contain "
             alt="Logo"
           />
         </div>

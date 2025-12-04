@@ -86,7 +86,7 @@ const Services = () => {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <a href="mailto:info@carlaferrari.net">
+        <a href="mailto:info@communicationco.net">
           <motion.button
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
