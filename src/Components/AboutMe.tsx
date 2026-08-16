@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const AboutMe = () => {
   const [t] = useTranslation("global");
+  const [isSocialOpen, setIsSocialOpen] = useState(false);
   return (
     <section className=" " id="about">
       <div className="md:grid md:grid-cols-2 py-20 justify-center lg:px-20 px-8 items-center gap-x-10 text-[#ae8871]">
@@ -61,11 +64,9 @@ const AboutMe = () => {
           </motion.div>
 
           <div className="w-full flex justify-center">
-            <a
-              href="
-            https://www.linkedin.com/in/carla-ferrari-0b234220a/"
-            >
               <motion.button
+                type="button"
+                onClick={() => setIsSocialOpen(true)}
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.5 }}
@@ -73,7 +74,6 @@ const AboutMe = () => {
               >
                 {t("about.button")}
               </motion.button>
-            </a>
           </div>
         </div>
 
@@ -85,6 +85,24 @@ const AboutMe = () => {
           />
         </div>
       </div>
+      {isSocialOpen && (
+        <div className="fixed inset-0 z-[70] flex items-center justify-center bg-black/60 p-4" role="dialog" aria-modal="true" aria-labelledby="social-title">
+          <div className="w-full max-w-sm rounded-lg bg-white p-6 shadow-2xl">
+            <div className="mb-6 flex items-start justify-between">
+              <h2 id="social-title" className="font-chocobold text-2xl text-[#b1757c]">Más de mí</h2>
+              <button type="button" onClick={() => setIsSocialOpen(false)} aria-label="Cerrar redes sociales" className="text-2xl text-gray-500">×</button>
+            </div>
+            <div className="grid gap-3">
+              <a href="https://www.linkedin.com/in/carla-ferrari-0b234220a/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 rounded bg-[#b1757c] px-4 py-3 font-chocobold text-white hover:bg-[#9d6169]">
+                <FaLinkedin /> LinkedIn
+              </a>
+              <a href="https://www.instagram.com/communicationco/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 rounded bg-[#b1757c] px-4 py-3 font-chocobold text-white hover:bg-[#9d6169]">
+                <FaInstagram /> Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

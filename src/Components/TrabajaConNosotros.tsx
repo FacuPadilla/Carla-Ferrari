@@ -1,9 +1,11 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import WhatsAppLeadModal from "./WhatsAppLeadModal";
 
 const TrabajaConNosotros = () => {
   const [t] = useTranslation("global");
-  const mailUrl = `mailto:carferrari94@gmail.com`;
+  const [isWhatsAppOpen, setIsWhatsAppOpen] = useState(false);
 
   return (
     <div id="trabaja-con-nosotros">
@@ -24,8 +26,9 @@ const TrabajaConNosotros = () => {
           <p className="md:text-lg text-base text-gray-700 font-chocoreg mb-8">
             {t("workWithUs.content2")}
           </p>
-          <a href={mailUrl}>
-            <motion.button
+          <motion.button
+              type="button"
+              onClick={() => setIsWhatsAppOpen(true)}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3 }}
@@ -33,9 +36,14 @@ const TrabajaConNosotros = () => {
             >
               {t("workWithUs.button")}
             </motion.button>
-          </a>
         </motion.div>
       </div>
+      <WhatsAppLeadModal
+        isOpen={isWhatsAppOpen}
+        title="Trabajar con nosotros"
+        context="charlar sobre una propuesta de trabajo"
+        onClose={() => setIsWhatsAppOpen(false)}
+      />
     </div>
   );
 };

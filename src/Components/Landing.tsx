@@ -2,6 +2,7 @@ import { ImagesSlider } from "./ui/ImagesSlider";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
+import Navbar from "./NavBar";
 
 const Landing = () => {
   const [t] = useTranslation("global");
@@ -29,7 +30,9 @@ const Landing = () => {
     : ["/banner2.jpg", "/banner3.jpeg"];
 
   return (
-    <ImagesSlider className="h-[700px]" images={images} autoplay={true}>
+    <>
+      <Navbar />
+      <ImagesSlider className="h-[700px]" images={images} autoplay={true}>
       <motion.div
         initial={{
           opacity: 0,
@@ -61,7 +64,8 @@ const Landing = () => {
           </button>
         </a>
       </motion.div>
-    </ImagesSlider>
+      </ImagesSlider>
+    </>
   );
 };
 

@@ -164,8 +164,7 @@
           "Social media setup and optimization",
           "Monthly social media management",
           "➕ Extra services available upon request"
-        ],
-        "price": "💰 Starting at USD 300/month"
+        ]
       },
       "plan2": {
         "shortDescription": "Strategic guidance through 3 one-on-one online sessions.",
@@ -175,8 +174,7 @@
           "Follow-up and final review",
           "PDF support material",
           "➕ Option to book additional sessions"
-        ],
-        "price": "💰 USD 210 / 3 sessions"
+        ]
       },
       "plan3": {
         "shortDescription": "Intensive class on branding and social media.",
@@ -185,8 +183,7 @@
           "Social media strategy",
           "Basic branding concepts",
           "Q&A session"
-        ],
-        "price": "💰 USD 50 / per person"
+        ]
       },
       "includesLabel": "Includes:",
       "knowMoreButton": "Learn more"
@@ -227,8 +224,8 @@
         "item9": "Offline graphic design & branded merchandise (business cards, stickers, brochures, t-shirts, tote bags, flyers, wall art, decals, etc.).",
         "item10": "Brand activations: giveaways, collabs, events, and creative ways to connect with your community."
       },
-      "modality": "Monthly management (from USD 250).",
-      "pricing": "Custom services quoted separately.",
+      "modality": "Monthly management.",
+      "pricing": "Custom services coordinated separately.",
       "extra": "Focus on your business while I take care of communicating it."
     },
     "plan2": {
@@ -247,8 +244,8 @@
         "item4": "Follow-up and final review",
         "item5": "PDF guide with content ideas, calendar, brand tone, and tips"
       },
-      "modality": "Pack of 3 sessions (USD 210 total).",
-      "pricing": "Extra sessions to check progress or adjust the plan. (USD 80 each).",
+      "modality": "Pack of 3 sessions.",
+      "pricing": "Extra sessions to check progress or adjust the plan.",
       "extra": "I'll help you understand your brand and show it with confidence."
     },
     "plan3": {
@@ -272,8 +269,8 @@
         "item5": "When to run ads, when to sell, and how to build loyalty",
         "item6": "Free tools and useful resources"
       },
-      "modality": "Individual or group online class — USD 50 per person.",
-      "pricing": "Discounts available for group bookings or multiple sessions.",
+      "modality": "Individual or group online class.",
+      "pricing": "Option to add more sessions or join as a group.",
       "extra": "You don't need to know everything — just the essentials to make your brand communication work for you."
     },
     "cta": {

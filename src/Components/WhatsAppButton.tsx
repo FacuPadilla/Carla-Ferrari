@@ -1,15 +1,14 @@
+import { useState } from "react";
+import WhatsAppLeadModal from "./WhatsAppLeadModal";
+
 const WhatsAppButton = () => {
-  const phoneNumber = "5491138201129";
-  const message = encodeURIComponent(
-    "Hola! Me gustaría obtener más información."
-  );
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <a
-      href={whatsappUrl}
-      target="_blank"
-      rel="noopener noreferrer"
+    <>
+    <button
+      type="button"
+      onClick={() => setIsOpen(true)}
       className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-green-500 text-white shadow-lg hover:bg-green-600 hover:scale-110 transition-all duration-300 group"
       aria-label="Contactar por WhatsApp"
     >
@@ -26,7 +25,14 @@ const WhatsAppButton = () => {
       <span className="absolute right-16 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-lg bg-neutral-900 px-3 py-2 text-sm text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
         Chateá con nosotros
       </span>
-    </a>
+    </button>
+    <WhatsAppLeadModal
+      isOpen={isOpen}
+      title="Chatear por WhatsApp"
+      context="agendar una reunión o hacer una consulta"
+      onClose={() => setIsOpen(false)}
+    />
+    </>
   );
 };
 

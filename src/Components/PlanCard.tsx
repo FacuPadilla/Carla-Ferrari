@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import WhatsAppLeadModal from "./WhatsAppLeadModal";
 
 interface PlanCardProps {
   planNumber: string;
@@ -10,7 +11,6 @@ interface PlanCardProps {
   includes: string[];
   topics?: string[];
   modality: string;
-  pricing: string;
   extra: string;
 }
 
@@ -22,11 +22,27 @@ const PlanCard = ({
   includes,
   topics,
   modality,
-  pricing,
   extra,
 }: PlanCardProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isWhatsAppOpen, setIsWhatsAppOpen] = useState(false);
   const [t] = useTranslation("global");
+
+  const closePlanModal = () => {
+    setIsModalOpen(false);
+    setIsWhatsAppOpen(false);
+  };
+
+  useEffect(() => {
+    if (!isModalOpen) return;
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") closePlanModal();
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+    return () => document.removeEventListener("keydown", handleKeyDown);
+  }, [isModalOpen]);
 
   // Obtener características de manera segura
   const getFeatures = () => {
@@ -79,12 +95,6 @@ const PlanCard = ({
 
         {/* Footer */}
         <div>
-          <div className="mb-4 text-center">
-            <p className="font-chocobold text-lg text-[#b1757c]">
-              {t(`plans.cards.plan${planNumber}.price`)}
-            </p>
-          </div>
-
           <button
             onClick={() => setIsModalOpen(true)}
             className="w-full bg-[#b1757c] hover:bg-[#9d6169] transition-all text-white font-chocobold py-3 px-4 rounded text-sm"
@@ -96,18 +106,31 @@ const PlanCard = ({
 
       {/* Modal */}
       {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+        <div
+          className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[80] p-4"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby={`plan-title-${planNumber}`}
+          onMouseDown={(event) => {
+            if (event.target === event.currentTarget) closePlanModal();
+          }}
+        >
           <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
             {/* Header del modal */}
-            <div className="sticky top-0 bg-white border-b p-6 flex justify-between items-center">
-              <h2 className="text-2xl font-chocobold text-[#b1757c]">
+            <div className="sticky top-0 z-10 bg-white border-b p-6 flex justify-between items-center">
+              <h2 id={`plan-title-${planNumber}`} className="text-2xl font-chocobold text-[#b1757c]">
                 PLAN {planNumber} — "{title}"
               </h2>
               <button
-                onClick={() => setIsModalOpen(false)}
-                className="text-gray-500 hover:text-gray-700 text-2xl"
+                type="button"
+                onClick={(event) => {
+                  event.stopPropagation();
+                  closePlanModal();
+                }}
+                aria-label="Cerrar detalles del plan"
+                className="relative z-20 pointer-events-auto cursor-pointer px-2 text-3xl leading-none text-gray-500 hover:text-gray-700"
               >
-                ×
+                <span aria-hidden="true">×</span>
               </button>
             </div>
 
@@ -207,7 +230,6 @@ const PlanCard = ({
                   </h3>
                 </div>
                 <p className="font-chocoreg text-sm">{modality}</p>
-                <p className="font-chocoreg text-sm mt-1">{pricing}</p>
               </div>
 
               {/* Extra */}
@@ -220,16 +242,27 @@ const PlanCard = ({
 
               {/* Botón de contacto */}
               <div className="text-center">
-                <a href="mailto:info@communicationco.net">
-                  <button className="bg-[#b1757c] hover:bg-[#9d6169] transition-all text-white font-chocobold py-3 px-8 rounded">
-                    {t("plans.modal.contactButton")}
-                  </button>
-                </a>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsModalOpen(false);
+                    setIsWhatsAppOpen(true);
+                  }}
+                  className="bg-[#b1757c] hover:bg-[#9d6169] transition-all text-white font-chocobold py-3 px-8 rounded"
+                >
+                  Empezar ahora
+                </button>
               </div>
             </div>
           </div>
         </div>
       )}
+      <WhatsAppLeadModal
+        isOpen={isWhatsAppOpen}
+        title={`Consultar Plan ${planNumber}`}
+        context={`consultar la compra del Plan ${planNumber}`}
+        onClose={() => setIsWhatsAppOpen(false)}
+      />
     </>
   );
 };

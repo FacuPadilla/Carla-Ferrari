@@ -23,3 +23,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes rose-shimmer {
+  0%, 100% {
+    text-shadow: 0 0 0 transparent;
+  }
+  50% {
+    text-shadow: 0 0 9px rgba(225, 151, 166, 0.65);
+  }
+}
+
+@keyframes rose-divider-shimmer {
+  0%, 100% {
+    box-shadow: 0 4px 18px rgba(65, 35, 40, 0.18), 0 1px 0 rgba(255, 220, 227, 0.35);
+  }
+  50% {
+    box-shadow: 0 4px 18px rgba(65, 35, 40, 0.18), 0 1px 7px rgba(255, 215, 225, 0.9);
+  }
+}
+
+.rose-text-shimmer a,
+.rose-text-shimmer button,
+.rose-text-shimmer svg,
+.footer-text-shimmer a,
+.footer-text-shimmer button,
+.footer-text-shimmer svg {
+  animation: rose-shimmer 4.5s ease-in-out infinite;
+}
+
+.rose-divider-shimmer {
+  animation: rose-divider-shimmer 4.5s ease-in-out infinite;
+}

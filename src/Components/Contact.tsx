@@ -1,9 +1,11 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import ContactFormModal from "./ContactFormModal";
 
 const Contact = () => {
   const [t] = useTranslation("global");
-  const whatsappUrl = `https://wa.me/5491138201129`;
+  const [isContactFormOpen, setIsContactFormOpen] = useState(false);
   return (
     <div id="contact">
       {/* Imagen sin texto superpuesto */}
@@ -30,8 +32,9 @@ const Contact = () => {
           <p className="mt-5 md:text-2xl text-lg text-gray-700 font-chocoreg mb-8">
             {t("contact.call_to_action")}
           </p>
-          <a href={whatsappUrl}>
-            <motion.button
+          <motion.button
+              type="button"
+              onClick={() => setIsContactFormOpen(true)}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3 }}
@@ -39,9 +42,9 @@ const Contact = () => {
             >
               {t("contact.boton")}
             </motion.button>
-          </a>
         </motion.div>
       </div>
+      <ContactFormModal isOpen={isContactFormOpen} onClose={() => setIsContactFormOpen(false)} />
     </div>
   );
 };

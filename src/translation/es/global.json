@@ -168,8 +168,7 @@
           "Estrategia de comunicación y mktg",
           " Set up de RRSS",
           "Contenido en RRSS"
-        ],
-        "price": "💰 Desde USD 300/mes"
+        ]
       },
       "plan2": {
         "shortDescription": "Asesoramiento estratégico en 3 sesiones online 1:1.",
@@ -179,8 +178,7 @@
           "Seguimiento y cierre",
           "Material de apoyo en PDF",
           "➕  Posibilidad de sesiones extras"
-        ],
-        "price": "💰 USD 210/ 3 sesiones"
+        ]
       },
       "plan3": {
         "shortDescription": "Clase intensiva sobre branding y redes sociales.",
@@ -189,8 +187,7 @@
           "Estrategia de redes",
           "Branding básico",
           "Espacio para preguntas"
-        ],
-        "price": "💰 USD 50/persona"
+        ]
       },
       "includesLabel": "Incluye:",
       "knowMoreButton": "Conocer más"
@@ -230,8 +227,8 @@
         "item9": "Diseño gráfico de piezas off-line y merchandising (tarjetas personales, stickers, folletería, remeras, tote bags, flyers, cuadros, ploteos, etc.)",
         "item10": "Activaciones de marca: sorteos, colaboraciones, eventos, ideas para conectar con tu comunidad."
       },
-      "modality": "Gestión mensual (desde USD 250).",
-      "pricing": "Servicios especiales cotizados por separado.",
+      "modality": "Gestión mensual.",
+      "pricing": "Servicios especiales coordinados por separado.",
       "extra": "Enfocate en tu negocio, mientras me encargo de comunicarlo."
     },
     "plan2": {
@@ -250,8 +247,8 @@
         "item4": "Seguimiento y cierre.",
         "item5": "Entrega de material PDF con ideas, calendario, tono, tips."
       },
-      "modality": "Pack de 3 reuniones (USD 210 total).",
-      "pricing": "Sesiones extras para ver avances o ajustar el plan. (USD 80 por encuentro).",
+      "modality": "Pack de 3 reuniones.",
+      "pricing": "Sesiones extras para ver avances o ajustar el plan.",
       "extra": "Te acompaño entender tu marca y mostrarla con fuerza."
     },
     "plan3": {
@@ -275,8 +272,8 @@
         "item5": "Cómo pautar, cuándo vender, cómo fidelizar.",
         "item6": "Herramientas y recursos gratuitos."
       },
-      "modality": "Clase individual o grupal online de 60 min (USD 50 por persona).",
-      "pricing": "Descuento por más clases o venir en grupo.",
+      "modality": "Clase individual o grupal online de 60 min.",
+      "pricing": "Posibilidad de sumar más clases o modalidad grupal.",
       "extra": "No necesitás saberlo todo. Pero sí entender lo básico para que la comunicación de tu marca juegue a tu favor."
     },
     "cta": {

@@ -1,7 +1,6 @@
 import { cn } from "../../lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import Navbar from "../NavBar";
 
 export const ImagesSlider = ({
   images,
@@ -86,10 +85,6 @@ export const ImagesSlider = ({
         perspective: "1000px",
       }}
     >
-      <div className="absolute top-0 left-0 w-full flex items-center justify-between p-4 z-40">
-        <Navbar />
-      </div>
-
       {areImagesLoaded && children}
       {areImagesLoaded && overlay && (
         <div className={cn("absolute inset-0 bg-black/5", overlayClassName)} />

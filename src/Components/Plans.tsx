@@ -1,9 +1,12 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import PlanCard from "./PlanCard";
+import WhatsAppLeadModal from "./WhatsAppLeadModal";
 
 const Plans = () => {
   const [t] = useTranslation("global");
+  const [isWhatsAppOpen, setIsWhatsAppOpen] = useState(false);
 
   return (
     <div>
@@ -57,7 +60,6 @@ const Plans = () => {
                 t("plans.plan1.includes.item3"),
               ]}
               modality={t("plans.plan1.modality")}
-              pricing={t("plans.plan1.pricing")}
               extra={t("plans.plan1.extra")}
             />
 
@@ -80,7 +82,6 @@ const Plans = () => {
                 t("plans.plan2.includes.item5"),
               ]}
               modality={t("plans.plan2.modality")}
-              pricing={t("plans.plan2.pricing")}
               extra={t("plans.plan2.extra")}
             />
 
@@ -108,7 +109,6 @@ const Plans = () => {
                 t("plans.plan3.topics.item6"),
               ]}
               modality={t("plans.plan3.modality")}
-              pricing={t("plans.plan3.pricing")}
               extra={t("plans.plan3.extra")}
             />
           </div>
@@ -121,8 +121,9 @@ const Plans = () => {
           {t("plans.cta.question")}
         </h3>
         <p className="text-lg font-chocoreg mb-8">{t("plans.cta.answer")}</p>
-        <a href="mailto:info@communicationco.net">
-          <motion.button
+        <motion.button
+            type="button"
+            onClick={() => setIsWhatsAppOpen(true)}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
@@ -130,8 +131,13 @@ const Plans = () => {
           >
             {t("plans.cta.button")}
           </motion.button>
-        </a>
       </div>
+      <WhatsAppLeadModal
+        isOpen={isWhatsAppOpen}
+        title="¿No sabés cuál elegir?"
+        context="agendar una reunión o charlar sobre tus servicios porque no sé cuál elegir"
+        onClose={() => setIsWhatsAppOpen(false)}
+      />
     </div>
   );
 };

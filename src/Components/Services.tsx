@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import ServiceCard from "./ServiceCard";
+import WhatsAppLeadModal from "./WhatsAppLeadModal";
 const Services = () => {
   const [t] = useTranslation("global");
+  const [isWhatsAppOpen, setIsWhatsAppOpen] = useState(false);
   return (
     <div>
       <div id="services" className="relative w-full lg:h-[450px] h-[850px]">
@@ -86,8 +89,9 @@ const Services = () => {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <a href="mailto:info@communicationco.net">
-          <motion.button
+        <motion.button
+            type="button"
+            onClick={() => setIsWhatsAppOpen(true)}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
@@ -95,8 +99,13 @@ const Services = () => {
           >
             {t("services.button")}
           </motion.button>
-        </a>
       </div>
+      <WhatsAppLeadModal
+        isOpen={isWhatsAppOpen}
+        title="Consultar servicios"
+        context="agendar una reunión o charlar sobre tus servicios"
+        onClose={() => setIsWhatsAppOpen(false)}
+      />
     </div>
   );
 };

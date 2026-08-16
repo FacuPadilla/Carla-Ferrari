@@ -12,7 +12,7 @@ import WhatsAppButton from "./Components/WhatsAppButton";
 
 function App() {
   return (
-    <div className="w-screen relative h-screen overflow-x-hidden   font-chocoreg">
+    <div className="w-full relative min-h-screen overflow-x-hidden font-chocoreg">
       <Landing />
       <WhatsAppButton />
       <AboutMe />
